@@ -6,19 +6,30 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "import-faq": "tsx scripts/import-faq-pdf.ts",
+    "db:migrate": "tsx scripts/migrate.ts",
+    "db:reseed-howto": "tsx scripts/reseed-howto.ts"
   },
   "dependencies": {
+    "@tailwindcss/postcss": "^4.3.1",
+    "mammoth": "^1.12.0",
     "next": "16.2.9",
+    "pdf-parse": "^1.1.4",
+    "pg": "^8.22.0",
+    "postcss": "^8.5.15",
     "react": "19.2.4",
-    "react-dom": "19.2.4"
+    "react-dom": "19.2.4",
+    "tailwindcss": "^4.3.1"
   },
   "devDependencies": {
     "@types/node": "^20",
+    "@types/pg": "^8.20.0",
     "@types/react": "^19",
     "@types/react-dom": "^19",
     "eslint": "^9",
     "eslint-config-next": "16.2.9",
+    "tsx": "^4.22.4",
     "typescript": "^5"
   }
 }

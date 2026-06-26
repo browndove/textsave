@@ -1,0 +1,120 @@
+export interface HowToStep {
+  id: string;
+  text: string;
+}
+
+export interface HowToTip {
+  id: string;
+  text: string;
+}
+
+export interface HowToContent {
+  steps: HowToStep[];
+  tips: HowToTip[];
+}
+
+export function emptyHowToContent(): HowToContent {
+  return { steps: [], tips: [] };
+}
+
+export function createStep(text = ""): HowToStep {
+  return { id: crypto.randomUUID(), text };
+}
+
+export function createTip(text = ""): HowToTip {
+  return { id: crypto.randomUUID(), text };
+}
+
+export function isStructuredHowToAnswer(answer: string): boolean {
+  if (!answer.trim().startsWith("{")) return false;
+  try {
+    const parsed = JSON.parse(answer) as HowToContent;
+    return Array.isArray(parsed.steps) && Array.isArray(parsed.tips);
+  } catch {
+    return false;
+  }
+}
+
+export function parseHowToAnswer(answer: string): HowToContent {
+  if (!answer.trim()) return emptyHowToContent();
+  if (isStructuredHowToAnswer(answer)) {
+    return JSON.parse(answer) as HowToContent;
+  }
+  return parsePlainTextToHowToContent(answer);
+}
+
+export function serializeHowToContent(content: HowToContent): string {
+  return JSON.stringify(content);
+}
+
+export function howToContentToPlainText(content: HowToContent): string {
+  const parts: string[] = [];
+  content.steps.forEach((step, index) => {
+    if (step.text.trim()) parts.push(`${index + 1}. ${step.text.trim()}`);
+  });
+  content.tips.forEach((tip) => {
+    if (tip.text.trim()) parts.push(`Tip: ${tip.text.trim()}`);
+  });
+  return parts.join("\n");
+}
+
+const TIP_SPLIT = /\s*(?:\uF4A1|💡|Tip:)\s*/i;
+
+function stripTipPrefix(text: string): string {
+  return text.replace(/^(?:\uF4A1|💡|Tip:)\s*/i, "").trim();
+}
+
+function isTipLine(line: string): boolean {
+  return /^(?:\uF4A1|💡|Tip:)/i.test(line.trim());
+}
+
+export function parsePlainTextToHowToContent(text: string): HowToContent {
+  const content = emptyHowToContent();
+  const lines = text.split(/\r?\n/).map((line) => line.trim()).filter(Boolean);
+
+  for (const line of lines) {
+    if (isTipLine(line)) {
+      content.tips.push(createTip(stripTipPrefix(line)));
+      continue;
+    }
+
+    const tipParts = line.split(TIP_SPLIT);
+    if (tipParts.length > 1) {
+      const stepPart = tipParts[0].trim();
+      const numbered = stepPart.match(/^(\d{1,2})\.\s+(.+)$/);
+      if (numbered) {
+        content.steps.push(createStep(numbered[2].trim()));
+      } else if (stepPart) {
+        content.steps.push(createStep(stepPart));
+      }
+      for (let i = 1; i < tipParts.length; i++) {
+        const tipText = tipParts[i].trim();
+        if (tipText) content.tips.push(createTip(tipText));
+      }
+      continue;
+    }
+
+    const numbered = line.match(/^(\d{1,2})\.\s+(.+)$/);
+    if (numbered) {
+      content.steps.push(createStep(numbered[2].trim()));
+      continue;
+    }
+
+    if (content.steps.length > 0) {
+      const last = content.steps[content.steps.length - 1];
+      last.text = `${last.text} ${line}`.trim();
+    } else if (content.tips.length > 0) {
+      const last = content.tips[content.tips.length - 1];
+      last.text = `${last.text} ${line}`.trim();
+    } else {
+      content.steps.push(createStep(line));
+    }
+  }
+
+  return content;
+}
+
+export function hasHowToContent(content: HowToContent): boolean {
+  return content.steps.some((step) => step.text.trim()) ||
+    content.tips.some((tip) => tip.text.trim());
+}
