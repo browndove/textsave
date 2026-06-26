@@ -1,4 +1,4 @@
-import type { FaqDocument, SavedVersion } from "./types";
+import type { FaqDocument, FaqDocumentResponse, SavedVersion } from "./types";
 import type { PinnedDocumentId } from "./documents";
 import { FAQ_DOCUMENT_ID } from "./documents";
 
@@ -39,6 +39,25 @@ export async function deleteVersionApi(id: string): Promise<void> {
 
 export async function fetchFaq(id: PinnedDocumentId = FAQ_DOCUMENT_ID): Promise<FaqDocument> {
   const response = await fetch(`/api/faq?id=${encodeURIComponent(id)}`);
+  if (!response.ok) throw new Error(await parseError(response));
+  return response.json();
+}
+
+export interface FetchFaqPageOptions {
+  limit: number;
+  offset?: number;
+}
+
+export async function fetchFaqPage(
+  id: PinnedDocumentId,
+  { limit, offset = 0 }: FetchFaqPageOptions,
+): Promise<FaqDocumentResponse> {
+  const params = new URLSearchParams({
+    id,
+    limit: String(limit),
+    offset: String(offset),
+  });
+  const response = await fetch(`/api/faq?${params}`);
   if (!response.ok) throw new Error(await parseError(response));
   return response.json();
 }

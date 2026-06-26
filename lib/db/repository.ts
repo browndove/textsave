@@ -1,4 +1,4 @@
-import type { FaqDocument, FaqEntry, SavedVersion } from "@/lib/types";
+import type { FaqDocument, FaqDocumentResponse, FaqEntry, SavedVersion } from "@/lib/types";
 import faqSeed from "@/data/helix-faq-seed.json";
 import howtoSeed from "@/data/helix-howto-seed.json";
 import {
@@ -120,7 +120,15 @@ async function seedFaqDocument(id: PinnedDocumentId): Promise<FaqDocument> {
   }
 }
 
-export async function getFaqDocument(id: PinnedDocumentId): Promise<FaqDocument> {
+export interface FaqQueryOptions {
+  limit?: number;
+  offset?: number;
+}
+
+export async function getFaqDocument(
+  id: PinnedDocumentId,
+  options: FaqQueryOptions = {},
+): Promise<FaqDocumentResponse> {
   const pool = getPool();
   const docResult = await pool.query(
     `SELECT id, title, updated_at FROM faq_documents WHERE id = $1`,
@@ -128,24 +136,57 @@ export async function getFaqDocument(id: PinnedDocumentId): Promise<FaqDocument>
   );
 
   if (docResult.rows.length === 0) {
-    return seedFaqDocument(id);
+    await seedFaqDocument(id);
+    return getFaqDocument(id, options);
   }
 
   const doc = docResult.rows[0];
-  const entriesResult = await pool.query(
-    `SELECT id, question, answer, updated_at
-     FROM faq_entries
-     WHERE document_id = $1
-     ORDER BY sort_order ASC`,
+  const offset = Math.max(0, options.offset ?? 0);
+  const limit = options.limit;
+
+  const countResult = await pool.query(
+    `SELECT COUNT(*)::int AS total FROM faq_entries WHERE document_id = $1`,
     [id],
   );
+  const total = countResult.rows[0]?.total ?? 0;
 
-  return {
+  const entriesQuery =
+    limit !== undefined
+      ? `SELECT id, question, answer, updated_at
+         FROM faq_entries
+         WHERE document_id = $1
+         ORDER BY sort_order ASC
+         LIMIT $2 OFFSET $3`
+      : `SELECT id, question, answer, updated_at
+         FROM faq_entries
+         WHERE document_id = $1
+         ORDER BY sort_order ASC
+         OFFSET $2`;
+
+  const entriesParams =
+    limit !== undefined ? [id, limit, offset] : [id, offset];
+
+  const entriesResult = await pool.query(entriesQuery, entriesParams);
+  const entries = entriesResult.rows.map(rowToEntry);
+
+  const response: FaqDocumentResponse = {
     id,
     title: doc.title,
     updatedAt: doc.updated_at.toISOString(),
-    entries: entriesResult.rows.map(rowToEntry),
+    entries,
   };
+
+  if (limit !== undefined || offset > 0) {
+    response.pagination = {
+      total,
+      limit: limit ?? null,
+      offset,
+      count: entries.length,
+      hasMore: offset + entries.length < total,
+    };
+  }
+
+  return response;
 }
 
 export async function saveFaqDocument(doc: FaqDocument): Promise<FaqDocument> {

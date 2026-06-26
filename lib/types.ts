@@ -21,3 +21,15 @@ export interface FaqDocument {
   entries: FaqEntry[];
   updatedAt: string;
 }
+
+export interface FaqPagination {
+  total: number;
+  limit: number | null;
+  offset: number;
+  count: number;
+  hasMore: boolean;
+}
+
+export interface FaqDocumentResponse extends FaqDocument {
+  pagination?: FaqPagination;
+}
