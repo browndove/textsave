@@ -3,551 +3,551 @@
   "title": "Helix App Frequently Asked Questions",
   "entries": [
     {
-      "id": "e172ab44-bc29-43cf-9868-080ec92ff430",
+      "id": "c127788d-0490-4d60-9610-26895ea1c45f",
       "question": "1. What is HELIX?",
-      "answer": "HELIX is a secure clinical communication platform built specifically for healthcare\n\nteams. It enables doctors, nurses, specialists, administrators, and other medical\n\nstaff to communicate quickly, securely, and compliantly about patient care.\n\nHELIX replaces outdated, unsafe communication tools-such as personal\n\nWhatsApp groups, pagers, and unencrypted SMS-with a purpose-built platform\n\nthat is encrypted, role-aware, audit-logged, and designed to handle both routine\n\ncoordination and life-critical emergencies.",
-      "updatedAt": "2026-06-25T21:39:42.269Z"
+      "answer": "HELIX is a secure clinical communication platform built specifically for healthcare teams. It enables doctors, nurses, specialists, administrators, and other medical staff to communicate quickly, securely, and compliantly about patient care.\n\nHELIX replaces outdated, unsafe communication tools-such as personal WhatsApp groups, pagers, and unencrypted SMS-with a purpose-built platform that is encrypted, role-aware, audit-logged, and designed to handle both routine coordination and life-critical emergencies.",
+      "updatedAt": "2026-06-26T01:49:17.554Z"
     },
     {
-      "id": "6c68eb9d-7924-4a5f-82bd-90d6234a5810",
+      "id": "68e38a73-c339-415f-948f-28ec366ea48a",
       "question": "2. Who is HELIX designed for?",
-      "answer": "HELIX is built for all members of a healthcare team-doctors, nurses, specialists,\n\nadministrators, transfer coordinators, and support staff. It is suitable for hospitals,\n\nclinics, polyclinics, and multi-facility healthcare organizations of any size. Any\n\nteam that needs fast, secure, role-based communication can benefit from HELIX.",
-      "updatedAt": "2026-06-25T21:39:42.270Z"
+      "answer": "HELIX is built for all members of a healthcare team-doctors, nurses, specialists, administrators, transfer coordinators, and support staff. It is suitable for hospitals, clinics, polyclinics, and multi-facility healthcare organizations of any size. Any team that needs fast, secure, role-based communication can benefit from HELIX.",
+      "updatedAt": "2026-06-26T01:49:17.554Z"
     },
     {
-      "id": "d8b01ba4-ce75-4296-ae21-a6c04d395e48",
+      "id": "3cbd8ccd-9743-4543-be90-326b0a79fe8d",
       "question": "3. What problem does HELIX solve?",
-      "answer": "HELIX addresses the critical gaps left by outdated communication methods such\n\nas pagers, personal mobile phones, and unencrypted messaging apps. These\n\nmethods are insecure, inefficient, and non-compliant with healthcare\n\nregulations. HELIX replaces them with a single, purpose-built platform that is\n\nencrypted, role-aware, audit-logged, and designed to handle both routine and\n\nlife-critical communications.",
-      "updatedAt": "2026-06-25T21:39:42.270Z"
+      "answer": "HELIX addresses the critical gaps left by outdated communication methods such as pagers, personal mobile phones, and unencrypted messaging apps. These methods are insecure, inefficient, and non-compliant with healthcare regulations. HELIX replaces them with a single, purpose-built platform that is encrypted, role-aware, audit-logged, and designed to handle both routine and life-critical communications.",
+      "updatedAt": "2026-06-26T01:49:17.554Z"
     },
     {
-      "id": "521b1442-275a-48fd-a505-102fcf06484d",
+      "id": "35229f2a-1f59-4484-ba1d-cb6503521977",
       "question": "4. Is HELIX only for large hospitals?",
-      "answer": "No. HELIX scales to meet the needs of small clinics, polyclinics, and large multi-\n\nfacility hospital systems alike. Whether your team has 10 staff members or 4,000,\n\nHELIX provides the same high standards of security, reliability, and\n\ncommunication efficiency. The platform is configured to match your specific\n\nfacility structure, roles, and workflows.\n\n5. What makes HELIX different from general messaging apps like",
-      "updatedAt": "2026-06-25T21:39:42.270Z"
+      "answer": "No. HELIX scales to meet the needs of small clinics, polyclinics, and large multi-facility hospital systems alike. Whether your team has 10 staff members or 4,000, HELIX provides the same high standards of security, reliability, and communication efficiency. The platform is configured to match your specific facility structure, roles, and workflows.",
+      "updatedAt": "2026-06-26T01:49:17.554Z"
     },
     {
-      "id": "247a9a2c-32ec-4d68-9e53-6265019f2392",
-      "question": "WhatsApp?",
-      "answer": "General consumer messaging apps are not built for healthcare. They lack role-\n\nbased routing, escalation logic, audit trails, compliance controls, and patient data\n\nprotection. HELIX is purpose-built for clinical environments with end-to-end\n\nencryption, GHANA Data Protection laws-aligned data storage, role sign-in/sign-\n\nout tracking, auto-escalation for unacknowledged critical alerts, care team\n\ncoordination, and patient transfer workflows-none of which exist in consumer\n\napps. Using personal messaging apps for clinical communication also exposes\n\nyour facility to serious regulatory and liability risks.\n\n7",
-      "updatedAt": "2026-06-25T21:39:42.270Z"
+      "id": "8d4809a4-efa4-4e3d-9df7-7228bc7b2f6a",
+      "question": "5. What makes HELIX different from general messaging apps like WhatsApp?",
+      "answer": "General consumer messaging apps are not built for healthcare. They lack role-based routing, escalation logic, audit trails, compliance controls, and patient data protection. HELIX is purpose-built for clinical environments with end-to-end encryption, GHANA Data Protection laws-aligned data storage, role sign-in/sign-out tracking, auto-escalation for unacknowledged critical alerts, care team coordination, and patient transfer workflows-none of which exist in consumer apps. Using personal messaging apps for clinical communication also exposes your facility to serious regulatory and liability risks.",
+      "updatedAt": "2026-06-26T01:49:17.554Z"
     },
     {
-      "id": "72969ffb-7d20-4b30-b2ad-80bd67827ef6",
+      "id": "8d31da5e-0f1e-4826-92b0-2da911dc8956",
       "question": "6. Who developed HELIX?",
-      "answer": "HELIX is developed by Helix Health Technologies of the BLVCK Sapphire Group, a\n\ntechnology company specializing in AI-driven solutions for healthcare, security,\n\ntransportation, industry and agriculture. BLVCK Sapphire is headquartered in\n\nAccra, Ghana with offices in Nigeria,Kenya,Canada and the United States and can\n\nbe reached at More information is available at  www.helixhealth.app and\n\nwww.blvcksapphire.com .",
-      "updatedAt": "2026-06-25T21:39:42.270Z"
+      "answer": "HELIX is developed by Helix Health Technologies of the BLVCK Sapphire Group, a technology company specializing in AI-driven solutions for healthcare, security, transportation, industry and agriculture. BLVCK Sapphire is headquartered in Accra, Ghana with offices in Nigeria, Kenya, Canada and the United States. More information is available at www.helixhealth.app and www.blvcksapphire.com.",
+      "updatedAt": "2026-06-26T01:49:17.554Z"
     },
     {
-      "id": "ed8298c6-c2d4-4d71-a218-2e96c228cb4a",
+      "id": "3d4fdc95-8b49-40bd-854a-1aeb0dcb5ff2",
       "question": "7. Is HELIX available on both iOS and Android?",
-      "answer": "Yes. HELIX is available on both iOS (iPhone and iPad) and Android devices. The\n\nmobile app offers the full feature set of the web platform, including secure\n\nmessaging, calls, role management, patient coordination, broadcast alerts, and\n\nescalation-all optimized for mobile use.",
-      "updatedAt": "2026-06-25T21:39:42.270Z"
+      "answer": "Yes. HELIX is available on both iOS (iPhone and iPad) and Android devices. The mobile app offers the full feature set of the web platform, including secure messaging, calls, role management, patient coordination, broadcast alerts, and escalation-all optimized for mobile use.",
+      "updatedAt": "2026-06-26T01:49:17.554Z"
     },
     {
-      "id": "9a2ee884-4845-45f0-907c-d06930f1f2e6",
+      "id": "5be56860-e895-4cfd-a0c6-76a652dc5dbb",
       "question": "8. Is there a web version of HELIX?",
-      "answer": "Contact your HELIX administrator or support@helixhealth.app to confirm current\n\nweb access options for your facility. The primary and recommended access\n\nmethod is via the iOS or Android mobile app, which provides the full feature set\n\nincluding push notifications, calls, and real-time escalation.\n\nGetting Started & Account Setup",
-      "updatedAt": "2026-06-25T21:39:42.270Z"
+      "answer": "Contact your HELIX administrator or support@helixhealth.app to confirm current web access options for your facility. The primary and recommended access method is via the iOS or Android mobile app, which provides the full feature set including push notifications, calls, and real-time escalation.",
+      "updatedAt": "2026-06-26T01:49:17.554Z"
     },
     {
-      "id": "79e2261a-7763-4e25-98db-eb90eaf0bf80",
+      "id": "0a8ce856-995e-490d-8ea5-d6769671e1c3",
       "question": "9. How do I get access to HELIX?",
-      "answer": "Access to HELIX is provisioned by your facility's HELIX super administrator. Once\n\nyour account is created, you will receive an email with your login credentials and\n\na link to download the app. If you have not received your credentials, contact\n\nyour facility's HELIX administrator or IT helpdesk.",
-      "updatedAt": "2026-06-25T21:39:42.271Z"
+      "answer": "Access to HELIX is provisioned by your facility's HELIX super administrator. Once your account is created, you will receive an email with your login credentials and a link to download the app. If you have not received your credentials, contact your facility's HELIX administrator or IT helpdesk.",
+      "updatedAt": "2026-06-26T01:49:17.554Z"
     },
     {
-      "id": "b66bfede-04cd-4687-a91b-76e8673e2714",
+      "id": "38c4bee5-584f-4342-a833-52c81a6d2182",
       "question": "10. How do I log in for the first time?",
-      "answer": "Download the HelixHealth app from the App Store (iOS) or Google Play Store\n\n(Android). Open the app and tap 'Continue' on the splash screen. Enter the email\n\naddress and temporary password provided by your administrator. You will be\n\nprompted to set a new password on first login. Once set, you will land on your\n\nHome screen showing your name, Broadcasts, and Notifications.",
-      "updatedAt": "2026-06-25T21:39:42.271Z"
+      "answer": "Download the HelixHealth app from the App Store (iOS) or Google Play Store (Android). Open the app and tap 'Continue' on the splash screen. Enter the email address and temporary password provided by your administrator. You will be prompted to set a new password on first login. Once set, you will land on your Home screen showing your name, Broadcasts, and Notifications.",
+      "updatedAt": "2026-06-26T01:49:17.554Z"
     },
     {
-      "id": "ecccb5ba-c42e-4735-90aa-1158a131c693",
+      "id": "1a1cd8c7-d516-429b-b679-3f6274156740",
       "question": "11. How do I set up my profile?",
-      "answer": "Tap your profile photo or avatar in the top right corner of the Home screen. Tap\n\n'Edit Profile' to upload a profile photo, verify your name, department, and\n\nspecialty, and confirm your contact details. A clear, professional profile photo is\n\nstrongly recommended-it helps colleagues identify you quickly in the Explore\n\ndirectory and on call screens.\n\n8",
-      "updatedAt": "2026-06-25T21:39:42.271Z"
+      "answer": "Tap your profile photo or avatar in the top right corner of the Home screen. Tap 'Edit Profile' to upload a profile photo, verify your name, department, and specialty, and confirm your contact details. A clear, professional profile photo is strongly recommended-it helps colleagues identify you quickly in the Explore directory and on call screens.",
+      "updatedAt": "2026-06-26T01:49:17.554Z"
     },
     {
-      "id": "2b786cd4-4769-4318-b201-597618e826f7",
+      "id": "022bdc84-dd35-4b0a-bfc3-759baa9794b5",
       "question": "12. What should I do if I forget my password?",
-      "answer": "On the HELIX login screen, tap 'Forgot Password' and enter your registered email\n\naddress. You will receive a password reset link by email. Follow the instructions to\n\nset a new password. If you do not receive the email within a few minutes, check\n\nyour spam folder or contact your HELIX administrator.",
-      "updatedAt": "2026-06-25T21:39:42.271Z"
+      "answer": "On the HELIX login screen, tap 'Forgot Password' and enter your registered email address. You will receive a password reset link by email. Follow the instructions to set a new password. If you do not receive the email within a few minutes, check your spam folder or contact your HELIX administrator.",
+      "updatedAt": "2026-06-26T01:49:17.554Z"
     },
     {
-      "id": "dbdbed96-19fc-4172-b0ff-7ae40d9906ec",
+      "id": "c105e254-5bb2-498d-a1bc-1f8a94372570",
       "question": "13. Can I change my password from within the app?",
-      "answer": "Yes. Tap your profile photo on the Home screen, scroll down and tap 'Settings',\n\nthen tap 'Security' and select 'Change Password'. Enter your current password,\n\nthen your new password (minimum 8 characters, including a number and special\n\ncharacter). Re-enter the new password to confirm and tap 'Update'. You will need\n\nto log in again on all devices with the new password.",
-      "updatedAt": "2026-06-25T21:39:42.271Z"
+      "answer": "Yes. Tap your profile photo on the Home screen, scroll down and tap 'Settings', then tap 'Security' and select 'Change Password'. Enter your current password, then your new password (minimum 8 characters, including a number and special character). Re-enter the new password to confirm and tap 'Update'. You will need to log in again on all devices with the new password.",
+      "updatedAt": "2026-06-26T01:49:17.554Z"
     },
     {
-      "id": "016f36e8-4238-4dda-987a-2e6bfd5505ab",
+      "id": "80e0e5bc-ed68-4167-80f9-a97984ce8487",
       "question": "14. How do I verify my phone number on HELIX?",
-      "answer": "Tap your profile photo on the Home screen to open your profile. If your phone\n\nnumber shows 'Not verified-tap to verify' highlighted in red, tap it to begin the\n\nverification process. You will receive a verification code via SMS to the number\n\nlisted. Enter the code to complete verification. A verified phone number improves\n\naccount security and ensures you can be reached if needed.",
-      "updatedAt": "2026-06-25T21:39:42.271Z"
+      "answer": "Tap your profile photo on the Home screen to open your profile. If your phone number shows 'Not verified-tap to verify' highlighted in red, tap it to begin the verification process. You will receive a verification code via SMS to the number listed. Enter the code to complete verification. A verified phone number improves account security and ensures you can be reached if needed.",
+      "updatedAt": "2026-06-26T01:49:17.554Z"
     },
     {
-      "id": "3d5f3570-53e4-431b-8775-0156871c7c3b",
+      "id": "f71ce645-fec3-4332-a573-01c674921fde",
       "question": "15. Can I control what colleagues see on my profile?",
-      "answer": "Yes. Go to Settings (via your profile photo) and scroll to 'Profile Visibility'. You can\n\nindividually toggle whether colleagues can see your email address and your\n\nphone number on your profile. These settings take effect immediately. Your\n\nname, department, and specialty are always visible to colleagues within your\n\nfacility.\n\nMessaging",
-      "updatedAt": "2026-06-25T21:39:42.271Z"
+      "answer": "Yes. Go to Settings (via your profile photo) and scroll to 'Profile Visibility'. You can individually toggle whether colleagues can see your email address and your phone number on your profile. These settings take effect immediately. Your name, department, and specialty are always visible to colleagues within your facility.",
+      "updatedAt": "2026-06-26T01:49:17.554Z"
     },
     {
-      "id": "cce0cc1a-ac1e-4417-b542-7262c9b8bec0",
+      "id": "693ec337-9d07-4e1f-9ecd-c2bc211f755d",
       "question": "16. What types of messages can I send on HELIX?",
-      "answer": "HELIX supports one-on-one secure messages, group chats, role-based messages\n\n(sent to a clinical role rather than a specific individual), broadcast\n\nannouncements (sent to all staff or specific departments), and care team\n\nmessages tied to individual patients. You can also send images, PDFs, and other\n\ndocuments within any conversation.\n\n9",
-      "updatedAt": "2026-06-25T21:39:42.271Z"
+      "answer": "HELIX supports one-on-one secure messages, group chats, role-based messages (sent to a clinical role rather than a specific individual), broadcast announcements (sent to all staff or specific departments), and care team messages tied to individual patients. You can also send images, PDFs, and other documents within any conversation.",
+      "updatedAt": "2026-06-26T01:49:17.554Z"
     },
     {
-      "id": "c4224072-7e86-4439-9f95-5d97ee1e1ea1",
+      "id": "c46c8186-e1fa-420b-8ae2-9b231e29a600",
       "question": "17. What is role-based messaging and why does it matter?",
-      "answer": "Role-based messaging allows you to send a message to a clinical role (e.g., 'HH -\n\nCardiologist On-Call') rather than having to know exactly who is on duty at any\n\ngiven time. HELIX automatically routes the message to whoever is currently\n\nsigned in to that role. This eliminates the time wasted searching for the right\n\nperson and ensures critical messages are never misdirected.",
-      "updatedAt": "2026-06-25T21:39:42.271Z"
+      "answer": "Role-based messaging allows you to send a message to a clinical role (e.g., 'HH - Cardiologist On-Call') rather than having to know exactly who is on duty at any given time. HELIX automatically routes the message to whoever is currently signed in to that role. This eliminates the time wasted searching for the right person and ensures critical messages are never misdirected.",
+      "updatedAt": "2026-06-26T01:49:17.554Z"
     },
     {
-      "id": "3405fca4-5ad5-44d0-a587-2b69becf86a0",
+      "id": "a1bcf815-a3bf-4b14-8473-d8f89313fa71",
       "question": "18. How do I send a message to a role rather than a specific person?",
-      "answer": "Tap 'Chats', then the '+' icon, and select 'Message a Role'. Search for the role by\n\nname (e.g., 'HH - Cardiologist On-Call') and tap it to open a conversation. Your\n\nmessage will be automatically delivered to whoever is currently signed in to that\n\nrole. If no one is covering the role, HELIX will notify you and may escalate\n\ndepending on your facility's configuration.",
-      "updatedAt": "2026-06-25T21:39:42.271Z"
+      "answer": "Tap 'Chats', then the '+' icon, and select 'Message a Role'. Search for the role by name (e.g., 'HH - Cardiologist On-Call') and tap it to open a conversation. Your message will be automatically delivered to whoever is currently signed in to that role. If no one is covering the role, HELIX will notify you and may escalate depending on your facility's configuration.",
+      "updatedAt": "2026-06-26T01:49:17.554Z"
     },
     {
-      "id": "03d306bb-9700-49be-8cda-2029abd5c734",
+      "id": "3d54f6df-a978-45ed-b889-04608a451ad2",
       "question": "19. Can I choose to send a message as myself or as a role I am covering?",
-      "answer": "Yes. When starting any new chat-one-on-one, group, or role-based-HELIX gives\n\nyou the option to send as yourself (your name) or as the role you are currently\n\ncovering. This is useful when responding in an official clinical capacity rather than\n\nas an individual, and ensures the recipient knows which role the message is\n\ncoming from.",
-      "updatedAt": "2026-06-25T21:39:42.271Z"
+      "answer": "Yes. When starting any new chat-one-on-one, group, or role-based-HELIX gives you the option to send as yourself (your name) or as the role you are currently covering. This is useful when responding in an official clinical capacity rather than as an individual, and ensures the recipient knows which role the message is coming from.",
+      "updatedAt": "2026-06-26T01:49:17.554Z"
     },
     {
-      "id": "b61070ea-eb90-4c75-a62a-f488878e1c5d",
+      "id": "23bfa06c-75af-465c-84be-b02c1df969c7",
       "question": "20. What is a Critical Message and when should I use it?",
-      "answer": "A Critical Message is a high-priority message that triggers special delivery\n\nbehavior in HELIX. To send one, tap the ⚠️ symbol in the message toolbar before\n\nsending. The message field will turn red and display a red 'Critical Message' label.\n\nCritical messages trigger loud device alerts on the recipient's phone (bypassing\n\nsilent mode), require the recipient to actively acknowledge receipt, and if\n\nunacknowledged within the configured timeout, automatically escalate up the\n\nchain of command. Use Critical Messages only for genuinely urgent clinical\n\nsituations-not for routine communication.\n\n Tip: Overuse of the critical flag reduces its impact. Reserve it for\n\nsituations where a delayed response could affect patient safety.",
-      "updatedAt": "2026-06-25T21:39:42.271Z"
+      "answer": "A Critical Message is a high-priority message that triggers special delivery behavior in HELIX. To send one, tap the ⚠️ symbol in the message toolbar before sending. The message field will turn red and display a red 'Critical Message' label. Critical messages trigger loud device alerts on the recipient's phone (bypassing silent mode), require the recipient to actively acknowledge receipt, and if unacknowledged within the configured timeout, automatically escalate up the chain of command. Use Critical Messages only for genuinely urgent clinical situations-not for routine communication.\n\n💡 Tip: Overuse of the critical flag reduces its impact. Reserve it for situations where a delayed response could affect patient safety.",
+      "updatedAt": "2026-06-26T01:49:17.554Z"
     },
     {
-      "id": "524095f7-5da9-4ee7-8719-5fead6876383",
+      "id": "5aa4e212-b272-49d2-972d-0ffaa0b5d719",
       "question": "21. How do I know if my message has been delivered and read?",
-      "answer": "HELIX provides delivery and read receipts for every message. A single checkmark\n\nindicates the message was sent. A double checkmark in grey means it was\n\ndelivered. A double checkmark in green means the recipient has read the\n\nmessage. For group messages, you can see individual read statuses. All delivery\n\nand read events are also recorded in the audit log.\n\n10",
-      "updatedAt": "2026-06-25T21:39:42.271Z"
+      "answer": "HELIX provides delivery and read receipts for every message. A single checkmark indicates the message was sent. A double checkmark in grey means it was delivered. A double checkmark in green means the recipient has read the message. For group messages, you can see individual read statuses. All delivery and read events are also recorded in the audit log.",
+      "updatedAt": "2026-06-26T01:49:17.554Z"
     },
     {
-      "id": "f9baeeec-d290-418f-b33f-8813b1d63ae9",
+      "id": "95827d9b-32da-4a34-8302-cb9a0dff8dc6",
       "question": "22. Can I add a subject line or link a message to a patient?",
-      "answer": "Yes. When starting a new one-on-one or group chat, HELIX gives you the option\n\nto add a Subject and to link the conversation to a specific patient. This is optional\n\nbut highly recommended for clinical communications, as it makes the purpose of\n\nthe message clear and ties the conversation to the patient's record for easy\n\nretrieval and audit.",
-      "updatedAt": "2026-06-25T21:39:42.271Z"
+      "answer": "Yes. When starting a new one-on-one or group chat, HELIX gives you the option to add a Subject and to link the conversation to a specific patient. This is optional but highly recommended for clinical communications, as it makes the purpose of the message clear and ties the conversation to the patient's record for easy retrieval and audit.",
+      "updatedAt": "2026-06-26T01:49:17.554Z"
     },
     {
-      "id": "858aa2bf-f841-48fa-a013-668634c20944",
+      "id": "b7c7d563-e1f0-4689-9ef8-887d1fa1800e",
       "question": "23. Can I send files, images, or documents in a chat?",
-      "answer": "Yes. In any chat conversation, tap the '+' icon in the lower left of the message field\n\nto access attachment options. You can send PDFs (e.g., lab results, referral letters,\n\ndischarge summaries), photos or videos from your camera roll, new photos taken\n\ndirectly with your camera, and patient information. All shared files are encrypted\n\nin transit and at rest and are logged in the audit trail.",
-      "updatedAt": "2026-06-25T21:39:42.271Z"
+      "answer": "Yes. In any chat conversation, tap the '+' icon in the lower left of the message field to access attachment options. You can send PDFs (e.g., lab results, referral letters, discharge summaries), photos or videos from your camera roll, new photos taken directly with your camera, and patient information. All shared files are encrypted in transit and at rest and are logged in the audit trail.",
+      "updatedAt": "2026-06-26T01:49:17.554Z"
     },
     {
-      "id": "4ba4fa9e-ff41-4f8b-8689-c41f35d62ded",
+      "id": "2a711016-ae0b-4fb6-9f80-2ef096b23cd1",
       "question": "24. Can I send a voice note?",
-      "answer": "Yes. In any chat or transfer request form, tap the microphone icon in the toolbar\n\nto record and send a voice note. This is useful for quick clinical updates when\n\ntyping is inconvenient, such as during a procedure or handover.",
-      "updatedAt": "2026-06-25T21:39:42.271Z"
+      "answer": "Yes. In any chat or transfer request form, tap the microphone icon in the toolbar to record and send a voice note. This is useful for quick clinical updates when typing is inconvenient, such as during a procedure or handover.",
+      "updatedAt": "2026-06-26T01:49:17.554Z"
     },
     {
-      "id": "e5560629-0c40-479b-9946-fc91400b213e",
+      "id": "d10af580-e91a-428f-b01e-a0a120795d6a",
       "question": "25. Can I search through past messages in a conversation?",
-      "answer": "Yes. Within any chat conversation, there is a search function that allows you to\n\nsearch for specific keywords, patient names, dates, or phrases. For administrators,\n\nthe audit dashboard provides full message search and filtering across the\n\norganization. Message history is retained per your facility's data retention policy.\n\n26. What happens if I send a message to a role with no one currently",
-      "updatedAt": "2026-06-25T21:39:42.271Z"
+      "answer": "Yes. Within any chat conversation, there is a search function that allows you to search for specific keywords, patient names, dates, or phrases. For administrators, the audit dashboard provides full message search and filtering across the organization. Message history is retained per your facility's data retention policy.",
+      "updatedAt": "2026-06-26T01:49:17.554Z"
     },
     {
-      "id": "47724152-fab3-4c88-9710-e4f2b7cbd873",
-      "question": "covering it?",
-      "answer": "If you send a message to a role with no current coverage, HELIX will alert you that\n\nno one is currently signed in to that role. Depending on your facility's\n\nconfiguration, the message may trigger an escalation to a supervisor or backup\n\ncontact to ensure it does not go unactioned. Administrators are notified of\n\nuncovered critical roles.",
-      "updatedAt": "2026-06-25T21:39:42.271Z"
+      "id": "eb022bcb-f5ae-4b40-b9a2-2a0fed2ed33c",
+      "question": "26. What happens if I send a message to a role with no one currently covering it?",
+      "answer": "If you send a message to a role with no current coverage, HELIX will alert you that no one is currently signed in to that role. Depending on your facility's configuration, the message may trigger an escalation to a supervisor or backup contact to ensure it does not go unactioned. Administrators are notified of uncovered critical roles.",
+      "updatedAt": "2026-06-26T01:49:17.554Z"
     },
     {
-      "id": "9f06c4f8-f8b4-4b3e-9d90-0ea2422943e2",
+      "id": "4aafa888-17d2-4d89-88d6-ad9d51e5c673",
       "question": "27. Can I send a broadcast message to all staff?",
-      "answer": "Yes. On the Home screen, tap the '+' button next to 'View all' in the Broadcasts\n\nsection. Enter a title and message body, select your recipients (all staff, specific\n\ndepartments, or selected roles), review and tap 'Send'. All selected recipients\n\nreceive an immediate push notification. Broadcasts are visible in the Broadcasts\n\nfeed on the Home screen and can be searched by keyword. Keep broadcasts\n\nconcise and action-oriented-avoid using them for non-urgent announcements.\n\n11\n\nCalls",
-      "updatedAt": "2026-06-25T21:39:42.271Z"
+      "answer": "Yes. On the Home screen, tap the '+' button next to 'View all' in the Broadcasts section. Enter a title and message body, select your recipients (all staff, specific departments, or selected roles), review and tap 'Send'. All selected recipients receive an immediate push notification. Broadcasts are visible in the Broadcasts feed on the Home screen and can be searched by keyword. Keep broadcasts concise and action-oriented-avoid using them for non-urgent announcements.",
+      "updatedAt": "2026-06-26T01:49:17.554Z"
     },
     {
-      "id": "e8a1f07e-5864-4473-872c-50aae9b205d8",
+      "id": "9f63f744-b02c-4d50-ae21-0e04172cb6b3",
       "question": "28. Does HELIX support voice and video calls?",
-      "answer": "Yes. HELIX supports both one-on-one and group voice and video calls. Calls are\n\nmade over your internet connection (Wi-Fi or mobile data) and are secured with\n\nencryption. The Calls tab shows your recent call history, missed calls, and Quick\n\nCall shortcuts to frequently contacted colleagues. All calls support multi-\n\nparticipant conferencing. For videos, up to 40 participants.",
-      "updatedAt": "2026-06-25T21:39:42.271Z"
+      "answer": "Yes. HELIX supports both one-on-one and group voice and video calls. Calls are made over your internet connection (Wi-Fi or mobile data) and are secured with encryption. The Calls tab shows your recent call history, missed calls, and Quick Call shortcuts to frequently contacted colleagues. All calls support multi-participant conferencing. For videos, up to 40 participants.",
+      "updatedAt": "2026-06-26T01:49:17.554Z"
     },
     {
-      "id": "b6c8e0cb-3f08-4758-9d57-188f627810ef",
+      "id": "c092426d-18fe-402f-8f3e-a0e89776da19",
       "question": "29. What is the difference between a Helix Call and a Normal phone call?",
-      "answer": "When you tap to call a contact, HELIX gives you the option of a 'Helix Call' (a\n\nsecure, encrypted internet-based call through the HELIX platform) or a 'Normal\n\nphone call' (a standard cellular call using the contact's registered phone number).\n\nHelix Calls are preferred for clinical communications as they are encrypted,\n\nlogged in the audit trail, and do not depend on the recipient's personal phone\n\nnumber being available.",
-      "updatedAt": "2026-06-25T21:39:42.271Z"
+      "answer": "When you tap to call a contact, HELIX gives you the option of a 'Helix Call' (a secure, encrypted internet-based call through the HELIX platform) or a 'Normal phone call' (a standard cellular call using the contact's registered phone number). Helix Calls are preferred for clinical communications as they are encrypted, logged in the audit trail, and do not depend on the recipient's personal phone number being available.",
+      "updatedAt": "2026-06-26T01:49:17.554Z"
     },
     {
-      "id": "f2d9906e-def7-4fd7-af3c-907cc042aedd",
+      "id": "df7c5b20-3727-48ea-8a3c-dcccd0851080",
       "question": "30. What do I do if I miss a call on HELIX?",
-      "answer": "Tap 'Calls' in the bottom navigation bar. Missed calls appear in your Recent calls\n\nlist highlighted in red, showing the caller's name (or role/group) and the time of\n\nthe missed call. Tap the phone icon to the right of the missed call to immediately\n\ncall back. Alternatively, tap the caller's name to view their profile and send them a\n\nmessage instead.",
-      "updatedAt": "2026-06-25T21:39:42.271Z"
+      "answer": "Tap 'Calls' in the bottom navigation bar. Missed calls appear in your Recent calls list highlighted in red, showing the caller's name (or role/group) and the time of the missed call. Tap the phone icon to the right of the missed call to immediately call back. Alternatively, tap the caller's name to view their profile and send them a message instead.",
+      "updatedAt": "2026-06-26T01:49:17.554Z"
     },
     {
-      "id": "d5511845-34d0-4482-84bc-f8ee0b9e1914",
+      "id": "cc558c9c-40df-452d-9424-15d26b3671f7",
       "question": "31. What should I do if a call drops or has poor quality?",
-      "answer": "First, check your internet connection. HELIX calls require a stable Wi-Fi or mobile\n\ndata connection. Move to an area with stronger signal and retry the call. If quality\n\nissues persist, try switching between Wi-Fi and mobile data. Persistent call\n\nquality issues should be reported to your facility's IT team, who can work with\n\nHelix health support to investigate.\n\nRoles & On-Call Management",
-      "updatedAt": "2026-06-25T21:39:42.271Z"
+      "answer": "First, check your internet connection. HELIX calls require a stable Wi-Fi or mobile data connection. Move to an area with stronger signal and retry the call. If quality issues persist, try switching between Wi-Fi and mobile data. Persistent call quality issues should be reported to your facility's IT team, who can work with Helix health support to investigate.",
+      "updatedAt": "2026-06-26T01:49:17.554Z"
     },
     {
-      "id": "c4bbbec5-3d02-47cc-8ba0-e7c8ee5b2f96",
+      "id": "87dd4e7d-af26-4640-8001-68dcfeee2b69",
       "question": "32. What is the Roles Directory?",
-      "answer": "The Roles Directory is a centralized list of all clinical and administrative roles\n\nconfigured at your facility. Each entry shows the role name, description, and who\n\nis currently covering it. You can message or call the person covering any role\n\ndirectly from the directory. The directory supports bookmarking for frequently\n\nused roles and shows real-time coverage status.\n\n12",
-      "updatedAt": "2026-06-25T21:39:42.271Z"
+      "answer": "The Roles Directory is a centralized list of all clinical and administrative roles configured at your facility. Each entry shows the role name, description, and who is currently covering it. You can message or call the person covering any role directly from the directory. The directory supports bookmarking for frequently used roles and shows real-time coverage status.",
+      "updatedAt": "2026-06-26T01:49:17.554Z"
     },
     {
-      "id": "ce07d229-a4cd-4d39-8140-0636676558cb",
+      "id": "8323a160-8aea-4dbc-a0ee-b786951f3d10",
       "question": "33. How do I sign in to a role at the start of my shift?",
-      "answer": "Tap 'Roles' from the bottom navigation bar, find your role using the search bar or\n\nby scrolling, and tap it to open the detail page. Under 'Role management', swipe\n\nright to sign in. Your name will appear under the role in the directory in green,\n\nand team members will receive a notification that you have taken over the role.\n\nAlways sign in at the start of your shift so that all role-directed messages and calls\n\nare routed to you correctly.",
-      "updatedAt": "2026-06-25T21:39:42.271Z"
+      "answer": "Tap 'Roles' from the bottom navigation bar, find your role using the search bar or by scrolling, and tap it to open the detail page. Under 'Role management', swipe right to sign in. Your name will appear under the role in the directory in green, and team members will receive a notification that you have taken over the role. Always sign in at the start of your shift so that all role-directed messages and calls are routed to you correctly.",
+      "updatedAt": "2026-06-26T01:49:17.554Z"
     },
     {
-      "id": "71d346fa-1869-486a-bd89-0706673fe28d",
+      "id": "43191e27-c040-4fed-b386-8d3f487321e9",
       "question": "34. How do I sign out of a role at the end of my shift?",
-      "answer": "Tap 'Roles', find the role you are covering, tap it and swipe left to sign out.\n\nAlternatively, from the Home screen, tap your active role shown under your name\n\nand swipe left to sign out on the detail page. For Standard Priority roles, you can\n\nsign out immediately without assigning a replacement. For Critical Priority roles,\n\nHELIX will require you to sign in a replacement caregiver before allowing you to\n\nsign out-this is a deliberate patient safety safeguard.\n\n35. What is the difference between a Standard Priority and Critical Priority",
-      "updatedAt": "2026-06-25T21:39:42.271Z"
+      "answer": "Tap 'Roles', find the role you are covering, tap it and swipe left to sign out. Alternatively, from the Home screen, tap your active role shown under your name and swipe left to sign out on the detail page. For Standard Priority roles, you can sign out immediately without assigning a replacement. For Critical Priority roles, HELIX will require you to sign in a replacement caregiver before allowing you to sign out-this is a deliberate patient safety safeguard.",
+      "updatedAt": "2026-06-26T01:49:17.554Z"
     },
     {
-      "id": "1e8070dd-0a53-4ae5-9f7f-1bd9981677ae",
-      "question": "role?",
-      "answer": "Standard Priority roles are operational roles where coverage gaps are undesirable\n\nbut do not immediately endanger patients. You can sign out of these freely.\n\nCritical Priority roles are life-critical roles-such as on-call physician, ED Charge\n\nNurse, or resuscitation team lead-where an unoccupied role could directly affect\n\npatient safety. HELIX enforces a mandatory handover for Critical Priority roles:\n\nyou must sign in a replacement before you can sign out.",
-      "updatedAt": "2026-06-25T21:39:42.271Z"
+      "id": "a1ca483d-9e4a-4152-9f16-9370e20f8a5c",
+      "question": "35. What is the difference between a Standard Priority and Critical Priority role?",
+      "answer": "Standard Priority roles are operational roles where coverage gaps are undesirable but do not immediately endanger patients. You can sign out of these freely. Critical Priority roles are life-critical roles-such as on-call physician, ED Charge Nurse, or resuscitation team lead-where an unoccupied role could directly affect patient safety. HELIX enforces a mandatory handover for Critical Priority roles: you must sign in a replacement before you can sign out.",
+      "updatedAt": "2026-06-26T01:49:17.554Z"
     },
     {
-      "id": "321f9b29-ae98-4f54-a15e-fd100b77d4c9",
+      "id": "065f9002-c100-4b7b-80ca-fc464f5f1112",
       "question": "36. Can one person cover multiple roles at the same time?",
-      "answer": "Yes. A single staff member can be signed in to multiple roles at the same time,\n\nwhich is common for smaller facilities where one clinician may cover several\n\nresponsibilities. All messages directed to any of their active roles will be delivered\n\nto them. The Roles Directory reflects all roles currently covered by that individual.",
-      "updatedAt": "2026-06-25T21:39:42.271Z"
+      "answer": "Yes. A single staff member can be signed in to multiple roles at the same time, which is common for smaller facilities where one clinician may cover several responsibilities. All messages directed to any of their active roles will be delivered to them. The Roles Directory reflects all roles currently covered by that individual.",
+      "updatedAt": "2026-06-26T01:49:17.554Z"
     },
     {
-      "id": "bb9fb224-f860-4558-944a-f933e490c34b",
+      "id": "c7945d38-d6c2-4cb9-b034-d2d76718ad30",
       "question": "37. What happens if I forget to sign out of a role at the end of my shift?",
-      "answer": "Messages meant for the next on-call provider will continue routing to you until\n\nyou sign out. This can lead to missed communications for your replacement. If\n\nyou are unavailable, your facility's administrator can manually reassign coverage\n\nvia the admin dashboard. To prevent this, always sign out and transfer coverage\n\nat the end of your shift, or use 'Sign out of all roles' from your profile page.",
-      "updatedAt": "2026-06-25T21:39:42.271Z"
+      "answer": "Messages meant for the next on-call provider will continue routing to you until you sign out. This can lead to missed communications for your replacement. If you are unavailable, your facility's administrator can manually reassign coverage via the admin dashboard. To prevent this, always sign out and transfer coverage at the end of your shift, or use 'Sign out of all roles' from your profile page.",
+      "updatedAt": "2026-06-26T01:49:17.554Z"
     },
     {
-      "id": "c3c41d89-f8d0-48be-8b2a-fee1dd5b01ff",
+      "id": "a32cdc58-a6be-42a1-9d09-3ea2d0fb68b8",
       "question": "38. How do I bookmark a role for quick access?",
-      "answer": "In the Roles Directory, find the role you frequently contact (e.g., HH - Chief\n\nMedical Officer) and tap the bookmark icon to the right of the role name. The role\n\nis saved under the 'Saved Roles' tab. Access your saved roles anytime from the\n\ntop tabs of the Roles screen. Tap any saved role to instantly message or call\n\nwhoever is currently covering it.\n\n13",
-      "updatedAt": "2026-06-25T21:39:42.271Z"
+      "answer": "In the Roles Directory, find the role you frequently contact (e.g., HH - Chief Medical Officer) and tap the bookmark icon to the right of the role name. The role is saved under the 'Saved Roles' tab. Access your saved roles anytime from the top tabs of the Roles screen. Tap any saved role to instantly message or call whoever is currently covering it.",
+      "updatedAt": "2026-06-26T01:49:17.554Z"
     },
     {
-      "id": "f0eaa449-b1dc-4f73-99b4-5c0fd48469a8",
+      "id": "261cf597-3f8a-4bbf-9964-8d3b753f7652",
       "question": "39. Who can see which roles are currently uncovered?",
-      "answer": "In the Roles Directory, any uncovered role is displayed with 'No one covering' in\n\nred, visible to all users of the platform. This ensures that staff immediately know if\n\na critical role is unmanned. Administrators receive additional alerts when high-\n\npriority roles (such as on-call physicians or emergency response roles) have no\n\nactive coverage.\n\nEscalation & Critical Alerts",
-      "updatedAt": "2026-06-25T21:39:42.271Z"
+      "answer": "In the Roles Directory, any uncovered role is displayed with 'No one covering' in red, visible to all users of the platform. This ensures that staff immediately know if a critical role is unmanned. Administrators receive additional alerts when high-priority roles (such as on-call physicians or emergency response roles) have no active coverage.",
+      "updatedAt": "2026-06-26T01:49:17.554Z"
     },
     {
-      "id": "fd3b0f57-ef69-4147-9077-d8c4b6bf4996",
+      "id": "b7f1dbcd-273c-4728-91a0-b52c6c4994a4",
       "question": "40. How does auto-escalation work in HELIX?",
-      "answer": "When a critical message is sent, HELIX monitors whether the recipient\n\nacknowledges it within a configured timeout (typically 2 minutes). If there is no\n\nacknowledgment, HELIX automatically escalates the message to the next person\n\nin the department's escalation chain-for example, a supervisor or backup on-call\n\nprovider. This process repeats up the chain until someone acknowledges the\n\nmessage, ensuring no life-critical alert ever goes unactioned.",
-      "updatedAt": "2026-06-25T21:39:42.271Z"
+      "answer": "When a critical message is sent, HELIX monitors whether the recipient acknowledges it within a configured timeout (typically 2 minutes). If there is no acknowledgment, HELIX automatically escalates the message to the next person in the department's escalation chain-for example, a supervisor or backup on-call provider. This process repeats up the chain until someone acknowledges the message, ensuring no life-critical alert ever goes unactioned.",
+      "updatedAt": "2026-06-26T01:49:17.554Z"
     },
     {
-      "id": "b6286064-6817-48da-95de-329ccc71be29",
+      "id": "8b4bcaf2-50c3-4538-abfb-4cddf967a872",
       "question": "41. What is an escalation chain and who sets it up?",
-      "answer": "An escalation chain is a pre-configured sequence of people or roles that HELIX\n\nescalates a critical, unacknowledged message through. For example: Level 1-On-\n\nCall Registrar, Level 2-Attending Physician, Level 3-Department Head. Escalation\n\nchains are configured by your facility's HELIX administrator in the admin\n\ndashboard, with input from clinical leads. Helix Health Technologies'\n\nimplementation team assists with setup during onboarding.",
-      "updatedAt": "2026-06-25T21:39:42.271Z"
+      "answer": "An escalation chain is a pre-configured sequence of people or roles that HELIX escalates a critical, unacknowledged message through. For example: Level 1-On-Call Registrar, Level 2-Attending Physician, Level 3-Department Head. Escalation chains are configured by your facility's HELIX administrator in the admin dashboard, with input from clinical leads. Helix Health Technologies' implementation team assists with setup during onboarding.",
+      "updatedAt": "2026-06-26T01:49:17.554Z"
     },
     {
-      "id": "7414cdfd-14cd-4d15-a347-92b06c941e64",
+      "id": "b98e2200-f3c2-41c5-802d-d582bbfa7752",
       "question": "42. Can escalation timeouts be customized by department or role?",
-      "answer": "Yes. Escalation timeouts are fully configurable per department and per role in\n\nHELIX. A critical message in the Emergency Department might have a 1-minute\n\ntimeout, while a routine consultation message might have a 5-minute timeout.\n\nAdministrators can also configure different timeout periods for different times of\n\nday (e.g., shorter during overnight on-call hours).\n\n14",
-      "updatedAt": "2026-06-25T21:39:42.271Z"
+      "answer": "Yes. Escalation timeouts are fully configurable per department and per role in HELIX. A critical message in the Emergency Department might have a 1-minute timeout, while a routine consultation message might have a 5-minute timeout. Administrators can also configure different timeout periods for different times of day (e.g., shorter during overnight on-call hours).",
+      "updatedAt": "2026-06-26T01:49:17.554Z"
     },
     {
-      "id": "acc72408-7b5c-48cd-9585-4acfa609cba7",
+      "id": "b76a7c62-50fe-40d2-a67d-942dc6fe84b7",
       "question": "43. How do I acknowledge a critical alert?",
-      "answer": "When a critical alert arrives, your device will sound loudly and vibrate with a high-\n\npriority push notification. Tap the notification to open HELIX and navigate to the\n\nmessage or open the app and find the message in your Chats. Press and hold the\n\nmessage-a dialogue will appear with the option to 'Acknowledge'. Tapping\n\nAcknowledge logs your name and a timestamp. Always acknowledge\n\nimmediately, even if you cannot act right away-this stops escalation and confirms\n\nreceipt. Then reply with your intended action (e.g., 'On my way to Ward 3').\n\n Tip: Acknowledging a message does not mean the task is complete-it\n\nmeans you have received it. Always follow up with a reply confirming your\n\naction.",
-      "updatedAt": "2026-06-25T21:39:42.271Z"
+      "answer": "When a critical alert arrives, your device will sound loudly and vibrate with a high-priority push notification. Tap the notification to open HELIX and navigate to the message or open the app and find the message in your Chats. Press and hold the message-a dialogue will appear with the option to 'Acknowledge'. Tapping Acknowledge logs your name and a timestamp. Always acknowledge immediately, even if you cannot act right away-this stops escalation and confirms receipt. Then reply with your intended action (e.g., 'On my way to Ward 3').\n\n💡 Tip: Acknowledging a message does not mean the task is complete-it means you have received it. Always follow up with a reply confirming your action.",
+      "updatedAt": "2026-06-26T01:49:17.554Z"
     },
     {
-      "id": "7173b792-7220-4403-8194-82cb578e8c64",
+      "id": "1f0019e9-15d7-4821-b8db-73b2e45c375b",
       "question": "44. What happens if nobody acknowledges a critical message?",
-      "answer": "Escalation continues up the entire configured chain until someone\n\nacknowledges. If the chain is exhausted without acknowledgment, the system\n\nflags the message as unacknowledged, and administrators are alerted. Every step\n\nof this process is logged in the compliance dashboard. This is why configuring\n\ncomplete escalation chains with adequate coverage at every level is critical for\n\npatient safety.",
-      "updatedAt": "2026-06-25T21:39:42.271Z"
+      "answer": "Escalation continues up the entire configured chain until someone acknowledges. If the chain is exhausted without acknowledgment, the system flags the message as unacknowledged, and administrators are alerted. Every step of this process is logged in the compliance dashboard. This is why configuring complete escalation chains with adequate coverage at every level is critical for patient safety.",
+      "updatedAt": "2026-06-26T01:49:17.554Z"
     },
     {
-      "id": "9b8f0e31-710b-4965-a975-a9d91802c452",
+      "id": "49a9bb0d-4336-4aa2-a42e-e9673d220be0",
       "question": "45. Can I see who acknowledged an alert and when?",
-      "answer": "Yes. Every acknowledgment is logged with the recipient's name, timestamp, and\n\nescalation level at which they responded. Senders can view this information from\n\nthe message detail screen. Administrators have access to full escalation logs\n\nthrough the compliance dashboard, which is useful for incident reviews and\n\nquality improvement.",
-      "updatedAt": "2026-06-25T21:39:42.271Z"
+      "answer": "Yes. Every acknowledgment is logged with the recipient's name, timestamp, and escalation level at which they responded. Senders can view this information from the message detail screen. Administrators have access to full escalation logs through the compliance dashboard, which is useful for incident reviews and quality improvement.",
+      "updatedAt": "2026-06-26T01:49:17.554Z"
     },
     {
-      "id": "ddfff708-bbe5-415f-aaae-e2362d489301",
+      "id": "e74a4a30-60c9-4a29-8ea6-6cbd7ac4fa75",
       "question": "46. What is the Code Blue alert and how does it work?",
-      "answer": "Code Blue is a facility-wide emergency alert for cardiac arrest or life-threatening\n\nemergencies. On the HELIX Home screen, the Code Blue button is prominently\n\ndisplayed and can be activated with a single tap (with confirmation). Upon\n\nactivation, all resuscitation team members receive an immediate high-priority\n\npush notification and in-app alert. The activation is logged with the time, location,\n\nand name of the activating user.\n\n15\n\nPatient Management",
-      "updatedAt": "2026-06-25T21:39:42.271Z"
+      "answer": "Code Blue is a facility-wide emergency alert for cardiac arrest or life-threatening emergencies. On the HELIX Home screen, the Code Blue button is prominently displayed and can be activated with a single tap (with confirmation). Upon activation, all resuscitation team members receive an immediate high-priority push notification and in-app alert. The activation is logged with the time, location, and name of the activating user.",
+      "updatedAt": "2026-06-26T01:49:17.554Z"
     },
     {
-      "id": "a45d6130-cb38-4af5-8a57-a31d9fe84fd9",
+      "id": "87fb1689-3ffb-455a-b3b7-8a3cf4337465",
       "question": "47. How does HELIX handle patient information?",
-      "answer": "Patient information in HELIX is used for care coordination purposes. It is stored\n\nwith end-to-end encryption and access controls, ensuring only authorized care\n\nteam members can view it. Patient data is never shared with third parties, and all\n\naccess is logged in the audit trail. HELIX is designed to be compliant with data\n\nprivacy laws and meets international healthcare data protection standards.",
-      "updatedAt": "2026-06-25T21:39:42.271Z"
+      "answer": "Patient information in HELIX is used for care coordination purposes. It is stored with end-to-end encryption and access controls, ensuring only authorized care team members can view it. Patient data is never shared with third parties, and all access is logged in the audit trail. HELIX is designed to be compliant with data privacy laws and meets international healthcare data protection standards.",
+      "updatedAt": "2026-06-26T01:49:17.554Z"
     },
     {
-      "id": "14ae16e4-7368-40d4-9cbb-e14dfb4d5bba",
+      "id": "adfee0cb-6f19-478e-99ba-642f1ee2e4ae",
       "question": "48. How do I view my current patient list?",
-      "answer": "Tap 'Patients' in the bottom navigation bar. The 'My Patients' tab (default view)\n\nshows all patients currently assigned to you, displaying name, age, sex, room\n\nnumber, unit, bed, and assigned care team. Tap 'Saved' to view bookmarked\n\npatients, or 'All Patients' to search the full facility patient list sorted by unit. Tap\n\nany patient's name to open their full profile and care team.",
-      "updatedAt": "2026-06-25T21:39:42.271Z"
+      "answer": "Tap 'Patients' in the bottom navigation bar. The 'My Patients' tab (default view) shows all patients currently assigned to you, displaying name, age, sex, room number, unit, bed, and assigned care team. Tap 'Saved' to view bookmarked patients, or 'All Patients' to search the full facility patient list sorted by unit. Tap any patient's name to open their full profile and care team.",
+      "updatedAt": "2026-06-26T01:49:17.554Z"
     },
     {
-      "id": "221eaedc-f42c-4fad-9f55-297b59c0f4ef",
+      "id": "d725143f-2337-46f1-83ca-160c9e4d2435",
       "question": "49. How do I add a new patient?",
-      "answer": "Tap 'Patients' then tap the '+' icon in the top right corner. Enter the patient's full\n\ndetails as required (name, age, sex, room, bed, unit, primary diagnosis). Tap 'Save'\n\nto create the record. A Care Team section will be available immediately for you to\n\nadd the relevant providers. Always ensure the information entered in HELIX is\n\nconsistent with your facility's Electronic Medical Records (EMR) system.",
-      "updatedAt": "2026-06-25T21:39:42.271Z"
+      "answer": "Tap 'Patients' then tap the '+' icon in the top right corner. Enter the patient's full details as required (name, age, sex, room, bed, unit, primary diagnosis). Tap 'Save' to create the record. A Care Team section will be available immediately for you to add the relevant providers. Always ensure the information entered in HELIX is consistent with your facility's Electronic Medical Records (EMR) system.",
+      "updatedAt": "2026-06-26T01:49:17.554Z"
     },
     {
-      "id": "6b316bd7-2abe-4c6f-b10e-00e7bee383d7",
+      "id": "7d8ffc42-acd9-43b5-9733-2451e9052c64",
       "question": "50. What is a Care Team and how do I build one?",
-      "answer": "A Care Team is the group of healthcare providers assigned to a specific patient in\n\nHELIX. To build one, open the patient's profile, tap the '+' next to the Care Team\n\nMembers count, and search for providers by name, department, or specialty.\n\nSelect each provider and tap the checkmark to save. Once built, the Care Team\n\nsection shows all members with their role and when they joined. Always build the\n\ncare team at admission so all providers are connected from the start.",
-      "updatedAt": "2026-06-25T21:39:42.271Z"
+      "answer": "A Care Team is the group of healthcare providers assigned to a specific patient in HELIX. To build one, open the patient's profile, tap the '+' next to the Care Team Members count, and search for providers by name, department, or specialty. Select each provider and tap the checkmark to save. Once built, the Care Team section shows all members with their role and when they joined. Always build the care team at admission so all providers are connected from the start.",
+      "updatedAt": "2026-06-26T01:49:17.554Z"
     },
     {
-      "id": "101b4712-0166-48f3-8425-d07e993d07fa",
+      "id": "87e2e4d2-415e-4437-a300-a27502b2b7df",
       "question": "51. What can I do with individual care team members?",
-      "answer": "Tap the three-dot menu (⋮) next to any care team member to access four options:\n\nMessage-send a direct message to that provider; Remove from team-remove\n\nthem from the patient's care team; Make attending physician-designate them as\n\nthe lead physician responsible for the patient; Make first contact-set them as the\n\nprimary point of contact for that patient. These designations are reflected in the\n\npatient's profile and in care team communications.\n\n16",
-      "updatedAt": "2026-06-25T21:39:42.271Z"
+      "answer": "Tap the three-dot menu (⋮) next to any care team member to access four options: Message-send a direct message to that provider; Remove from team-remove them from the patient's care team; Make attending physician-designate them as the lead physician responsible for the patient; Make first contact-set them as the primary point of contact for that patient. These designations are reflected in the patient's profile and in care team communications.",
+      "updatedAt": "2026-06-26T01:49:17.554Z"
     },
     {
-      "id": "d4364626-4d51-466e-98df-23da2b0ccfd1",
+      "id": "990cb85e-06b2-4211-9246-70fc496e063b",
       "question": "52. What is a Care Team Chat?",
-      "answer": "A Care Team Chat is a dedicated group conversation automatically created for\n\neach patient in HELIX. It includes all providers assigned to that patient's care-\n\ndoctors, nurses, specialists, and other relevant staff. It allows the entire team to\n\ncoordinate care, share updates, and communicate about the patient in one\n\nsecure, searchable conversation thread.",
-      "updatedAt": "2026-06-25T21:39:42.271Z"
+      "answer": "A Care Team Chat is a dedicated group conversation automatically created for each patient in HELIX. It includes all providers assigned to that patient's care-doctors, nurses, specialists, and other relevant staff. It allows the entire team to coordinate care, share updates, and communicate about the patient in one secure, searchable conversation thread.",
+      "updatedAt": "2026-06-26T01:49:17.554Z"
     },
     {
-      "id": "3fa84d3b-9fce-43c4-bcf4-da9f96f09e8f",
+      "id": "70b9ca76-4916-4c46-9a0f-c2f8be861c20",
       "question": "53. Can patients or their families access HELIX?",
-      "answer": "No. HELIX is a clinical communication platform intended exclusively for\n\nauthorized healthcare professionals. Patients and their families do not have\n\naccess to HELIX. All conversations on the platform are between verified clinical\n\nand administrative staff only.\n\nExplore & Patient Transfers",
-      "updatedAt": "2026-06-25T21:39:42.271Z"
+      "answer": "No. HELIX is a clinical communication platform intended exclusively for authorized healthcare professionals. Patients and their families do not have access to HELIX. All conversations on the platform are between verified clinical and administrative staff only.",
+      "updatedAt": "2026-06-26T01:49:17.554Z"
     },
     {
-      "id": "b3bfc333-df10-4189-be5d-48e51eb6dd91",
+      "id": "092d8ae7-5f24-41bb-b47b-f7811d5172ad",
       "question": "54. What is the Explore feature?",
-      "answer": "Explore is the staff and facility directory in HELIX. The Internal tab allows you to\n\nsearch all staff members within your facility by name, department, or specialty,\n\nand see their last-seen status. The External tab lists roles at partner facilities-such\n\nas transfer centers, specialist units, or referral hospitals-enabling you to\n\ncommunicate with them directly through HELIX.",
-      "updatedAt": "2026-06-25T21:39:42.271Z"
+      "answer": "Explore is the staff and facility directory in HELIX. The Internal tab allows you to search all staff members within your facility by name, department, or specialty, and see their last-seen status. The External tab lists roles at partner facilities-such as transfer centers, specialist units, or referral hospitals-enabling you to communicate with them directly through HELIX.",
+      "updatedAt": "2026-06-26T01:49:17.554Z"
     },
     {
-      "id": "198faa1a-8b29-4fb3-a72a-224bee55eef1",
+      "id": "01e8f53a-1fed-4f28-a999-f989b27c7d92",
       "question": "55. How do I find a specific colleague using the Explore tab?",
-      "answer": "Tap 'Explore' in the bottom navigation bar and ensure the 'Internal' tab is\n\nselected. Type a name, specialty, or department in the search bar (e.g.,\n\n'Radiologist', 'Neurology', or a specific surname). Browse or scroll the alphabetical\n\nstaff list. Each entry shows the staff member's name, department, specialty, and\n\nlast-seen time, so you can quickly identify who is recently active. Tap their name\n\nto view their full profile and initiate a call or message.",
-      "updatedAt": "2026-06-25T21:39:42.271Z"
+      "answer": "Tap 'Explore' in the bottom navigation bar and ensure the 'Internal' tab is selected. Type a name, specialty, or department in the search bar (e.g., 'Radiologist', 'Neurology', or a specific surname). Browse or scroll the alphabetical staff list. Each entry shows the staff member's name, department, specialty, and last-seen time, so you can quickly identify who is recently active. Tap their name to view their full profile and initiate a call or message.",
+      "updatedAt": "2026-06-26T01:49:17.554Z"
     },
     {
-      "id": "9c9e988c-9d67-4cd3-970c-2805989893b2",
+      "id": "1f3ae12d-bfa6-475d-a49d-c0a063981a75",
       "question": "56. How do I request a patient transfer to another facility?",
-      "answer": "Tap 'Explore', then tap the 'External' tab and find the Transfer Center of the\n\nreceiving facility. Tap it to open the External Contact page, where you will see the\n\nfacility name, department, and priority level. Tap 'Request Transfer' to open the\n\nstructured transfer form. Fill in: who you are sending as (prefilled), the requesting\n\nphysician (tap '+ Add Physician'), patient details (first name, last name, date of\n\nbirth, gender, primary diagnosis), reason for transfer, and any additional\n\ninformation. Use the toolbar to attach documents (+) or add a voice note. Tap\n\n'Send'-the request is routed to whoever is on duty at the receiving Transfer\n\nCenter.\n\n Tip: If the transfer is urgent, tap the ⚠️ symbol before sending to flag it\n\nas a critical message-this ensures immediate escalation if the transfer\n\ncenter does not respond within the configured timeout.\n\n17\n\n57. What is the difference between 'Message' and 'Request Transfer' on an",
-      "updatedAt": "2026-06-25T21:39:42.271Z"
+      "answer": "Tap 'Explore', then tap the 'External' tab and find the Transfer Center of the receiving facility. Tap it to open the External Contact page, where you will see the facility name, department, and priority level. Tap 'Request Transfer' to open the structured transfer form. Fill in: who you are sending as (prefilled), the requesting physician (tap '+ Add Physician'), patient details (first name, last name, date of birth, gender, primary diagnosis), reason for transfer, and any additional information. Use the toolbar to attach documents (+) or add a voice note. Tap 'Send'-the request is routed to whoever is on duty at the receiving Transfer Center.\n\n💡 Tip: If the transfer is urgent, tap the ⚠️ symbol before sending to flag it as a critical message-this ensures immediate escalation if the transfer center does not respond within the configured timeout.",
+      "updatedAt": "2026-06-26T01:49:17.554Z"
     },
     {
-      "id": "e62caabd-ae25-4679-a7e3-26a467459995",
-      "question": "external contact?",
-      "answer": "'Message' sends a free-text secure message to the external facility's role-useful for\n\nquick queries, pre-notification, or follow-up. 'Request Transfer' opens a structured\n\nform that captures all required patient and clinical information in a standardized\n\nformat. The Request Transfer form is preferred for formal transfer requests as it\n\nensures all necessary information is included and creates a complete, structured\n\nrecord in the audit trail.",
-      "updatedAt": "2026-06-25T21:39:42.271Z"
+      "id": "ca155e8c-2df9-47d0-bd16-5879471cc1bb",
+      "question": "57. What is the difference between 'Message' and 'Request Transfer' on an external contact?",
+      "answer": "'Message' sends a free-text secure message to the external facility's role-useful for quick queries, pre-notification, or follow-up. 'Request Transfer' opens a structured form that captures all required patient and clinical information in a standardized format. The Request Transfer form is preferred for formal transfer requests as it ensures all necessary information is included and creates a complete, structured record in the audit trail.",
+      "updatedAt": "2026-06-26T01:49:17.554Z"
     },
     {
-      "id": "531f88ac-5eb8-44a6-a245-b92ea9f7c9eb",
+      "id": "a596594c-62e4-43f4-b313-e2676b813f4d",
       "question": "58. Can HELIX connect to facilities outside my organization?",
-      "answer": "Yes. HELIX supports cross-facility communication through the External directory.\n\nPartner facilities and roles (such as regional transfer centers, referral hospitals,\n\nand specialist units) can be configured for secure external messaging. All external\n\ncommunications maintain the same encryption and compliance standards as\n\ninternal messages.",
-      "updatedAt": "2026-06-25T21:39:42.271Z"
+      "answer": "Yes. HELIX supports cross-facility communication through the External directory. Partner facilities and roles (such as regional transfer centers, referral hospitals, and specialist units) can be configured for secure external messaging. All external communications maintain the same encryption and compliance standards as internal messages.",
+      "updatedAt": "2026-06-26T01:49:17.554Z"
     },
     {
-      "id": "c54862a1-fce8-4829-8b6e-2c712afbb185",
+      "id": "f24b7e6d-7f0a-4b4b-b617-a2a260c99ade",
       "question": "59. Is there an audit trail for transfer communications?",
-      "answer": "Yes. Every transfer request sent through HELIX is fully logged-including who sent\n\nit, when it was delivered, when it was read, and when it was acknowledged. This\n\ncreates a complete, timestamped record of all inter-facility transfer\n\ncommunications that can be referenced for clinical handover, compliance\n\nreviews, and incident investigations.\n\nNotifications & Reminders",
-      "updatedAt": "2026-06-25T21:39:42.271Z"
+      "answer": "Yes. Every transfer request sent through HELIX is fully logged-including who sent it, when it was delivered, when it was read, and when it was acknowledged. This creates a complete, timestamped record of all inter-facility transfer communications that can be referenced for clinical handover, compliance reviews, and incident investigations.",
+      "updatedAt": "2026-06-26T01:49:17.554Z"
     },
     {
-      "id": "f58829cb-926a-4959-b562-2cb51bb9a864",
+      "id": "9acfc20a-ac7b-47e9-9368-d2d5ed5eccd3",
       "question": "60. What types of notifications will I receive on HELIX?",
-      "answer": "HELIX sends the following types of notifications: new message alerts (standard\n\nand critical), role sign-in and sign-out events (when a colleague takes over or\n\nreleases a role), broadcast announcements, reminder alerts (personal and\n\nshared), escalation alerts (when a critical message has been escalated to you),\n\nCode Blue activations, and system updates. Critical alerts bypass your device's\n\nsilent mode and ring loudly until acknowledged.",
-      "updatedAt": "2026-06-25T21:39:42.271Z"
+      "answer": "HELIX sends the following types of notifications: new message alerts (standard and critical), role sign-in and sign-out events (when a colleague takes over or releases a role), broadcast announcements, reminder alerts (personal and shared), escalation alerts (when a critical message has been escalated to you), Code Blue activations, and system updates. Critical alerts bypass your device's silent mode and ring loudly until acknowledged.",
+      "updatedAt": "2026-06-26T01:49:17.554Z"
     },
     {
-      "id": "70afd50c-0a93-4e3e-9794-d5ad84fd5975",
+      "id": "843b628d-7052-444e-b783-8be90518b5bd",
       "question": "61. How do I set a personal reminder on HELIX?",
-      "answer": "From the Home screen, tap the wrench/tools icon near your name. In the Tools\n\nmenu, tap 'Reminders', then tap '+' to create a new reminder. Fill in a Title,\n\nDescription, Due date and time, Repeat frequency (Never, Daily, Weekly), and\n\nEarly Alert (off, 5 / 10 / 15 / 30 minutes before, or 1 hour before). Leave Share set to\n\n'Only you' for a personal reminder. Tap the checkmark to save-HELIX will notify\n\nyou at the scheduled time.\n\n18",
-      "updatedAt": "2026-06-25T21:39:42.271Z"
+      "answer": "From the Home screen, tap the wrench/tools icon near your name. In the Tools menu, tap 'Reminders', then tap '+' to create a new reminder. Fill in a Title, Description, Due date and time, Repeat frequency (Never, Daily, Weekly), and Early Alert (off, 5 / 10 / 15 / 30 minutes before, or 1 hour before). Leave Share set to 'Only you' for a personal reminder. Tap the checkmark to save-HELIX will notify you at the scheduled time.",
+      "updatedAt": "2026-06-26T01:49:17.554Z"
     },
     {
-      "id": "baa558be-b0c3-466d-8a7e-4a48e381d0cd",
+      "id": "006ee58a-9e44-4530-b9c3-85eb76badf77",
       "question": "62. Can I share a reminder with colleagues?",
-      "answer": "Yes. When creating a reminder, tap the 'Share' field (which defaults to 'Only you').\n\nA searchable list of staff appears-select the colleagues you want to share the\n\nreminder with. Each invitee defaults to View only access. Confirm with the\n\ncheckmark and save. All selected colleagues will receive the reminder notification\n\nat the scheduled time. Shared reminders appear in recipients' lists tagged with a\n\n'Shared' badge and show who shared them and when.",
-      "updatedAt": "2026-06-25T21:39:42.271Z"
+      "answer": "Yes. When creating a reminder, tap the 'Share' field (which defaults to 'Only you'). A searchable list of staff appears-select the colleagues you want to share the reminder with. Each invitee defaults to View only access. Confirm with the checkmark and save. All selected colleagues will receive the reminder notification at the scheduled time. Shared reminders appear in recipients' lists tagged with a 'Shared' badge and show who shared them and when.",
+      "updatedAt": "2026-06-26T01:49:17.554Z"
     },
     {
-      "id": "7f938945-c384-4aef-80a3-d609a00c7f5a",
+      "id": "16c759f1-40ba-4b5d-a92c-0b4e28ce87e5",
       "question": "63. How do I access my past and upcoming reminders?",
-      "answer": "Tap the wrench/tools icon on the Home screen, then 'Reminders'. The Reminders\n\nscreen has three tabs: All (every reminder), Upcoming (reminders that haven't\n\ntriggered yet), and Past (reminders already delivered). Use the search bar to find\n\nspecific reminders by keyword. Completed reminders are shown with a 'Done'\n\nbadge and a strikethrough title.",
-      "updatedAt": "2026-06-25T21:39:42.271Z"
+      "answer": "Tap the wrench/tools icon on the Home screen, then 'Reminders'. The Reminders screen has three tabs: All (every reminder), Upcoming (reminders that haven't triggered yet), and Past (reminders already delivered). Use the search bar to find specific reminders by keyword. Completed reminders are shown with a 'Done' badge and a strikethrough title.",
+      "updatedAt": "2026-06-26T01:49:17.554Z"
     },
     {
-      "id": "c09cae13-3ce4-40f9-a56a-d27727632699",
+      "id": "3d36c687-287f-4be5-be9c-2df4270f3f55",
       "question": "64. Can I make HELIX stop sending me notifications temporarily?",
-      "answer": "Yes. Go to Settings (via your profile photo) and toggle on 'Do Not Disturb' under\n\nthe Status section. When active, standard message notifications are paused.\n\nHowever, Critical Alerts and Code Blue notifications are always delivered\n\nregardless of Do Not Disturb status-this is a deliberate patient safety design. Do\n\nNot Disturb does not affect your ability to send messages or make calls.",
-      "updatedAt": "2026-06-25T21:39:42.271Z"
+      "answer": "Yes. Go to Settings (via your profile photo) and toggle on 'Do Not Disturb' under the Status section. When active, standard message notifications are paused. However, Critical Alerts and Code Blue notifications are always delivered regardless of Do Not Disturb status-this is a deliberate patient safety design. Do Not Disturb does not affect your ability to send messages or make calls.",
+      "updatedAt": "2026-06-26T01:49:17.554Z"
     },
     {
-      "id": "e80387d9-2740-4f13-b95b-833493b9a709",
+      "id": "5e16f556-0ec1-4fe0-acc4-df4e78c1d064",
       "question": "65. How do I hide message content from appearing on my lock screen?",
-      "answer": "Go to Settings (via your profile photo) and toggle on 'Hide Message Preview'\n\nunder the Notifications section. When enabled, push notifications for new\n\nmessages will appear on your lock screen without showing the message content-\n\nprotecting patient and clinical information from being visible when your phone is\n\nunattended. You will still be notified that a message has arrived; you simply need\n\nto unlock your phone to read it.\n\nSecurity & Compliance",
-      "updatedAt": "2026-06-25T21:39:42.271Z"
+      "answer": "Go to Settings (via your profile photo) and toggle on 'Hide Message Preview' under the Notifications section. When enabled, push notifications for new messages will appear on your lock screen without showing the message content-protecting patient and clinical information from being visible when your phone is unattended. You will still be notified that a message has arrived; you simply need to unlock your phone to read it.",
+      "updatedAt": "2026-06-26T01:49:17.554Z"
     },
     {
-      "id": "f9b4189a-b0be-4af4-afbb-a359ff5c189c",
+      "id": "47ffc9af-5a29-48ec-8128-241f1681dd45",
       "question": "66. Is HELIX compliant with healthcare data protection regulations?",
-      "answer": "Yes. HELIX is built to be fully compliant with Data Privacy Laws. All messages,\n\nfiles, and patient data are encrypted in transit and at rest. Access is controlled\n\nthrough role-based permissions, and every action in the platform is logged with\n\ntimestamps and user identifiers. Regular security reviews are conducted, and a\n\nBusiness Associate Agreement (BAA) is available for all covered entities.\n\n19",
-      "updatedAt": "2026-06-25T21:39:42.271Z"
+      "answer": "Yes. HELIX is built to be fully compliant with Data Privacy Laws. All messages, files, and patient data are encrypted in transit and at rest. Access is controlled through role-based permissions, and every action in the platform is logged with timestamps and user identifiers. Regular security reviews are conducted, and a Business Associate Agreement (BAA) is available for all covered entities.",
+      "updatedAt": "2026-06-26T01:49:17.554Z"
     },
     {
-      "id": "7a7f70fc-5881-4eea-8795-fc080caa3e28",
+      "id": "e0d08d9e-54ba-47b7-838e-788afb99a774",
       "question": "67. How is data encrypted in HELIX?",
-      "answer": "HELIX uses industry-standard AES-256 encryption for data at rest and TLS 1.2 or\n\nhigher for data in transit. All communications between your device and HELIX\n\nservers are fully encrypted. Encryption keys are managed securely by Helix Health\n\nTechnologies’ infrastructure team. No third party-including mobile carriers or\n\ninternet service providers-can intercept or read HELIX messages.",
-      "updatedAt": "2026-06-25T21:39:42.271Z"
+      "answer": "HELIX uses industry-standard AES-256 encryption for data at rest and TLS 1.2 or higher for data in transit. All communications between your device and HELIX servers are fully encrypted. Encryption keys are managed securely by Helix Health Technologies' infrastructure team. No third party-including mobile carriers or internet service providers-can intercept or read HELIX messages.",
+      "updatedAt": "2026-06-26T01:49:17.554Z"
     },
     {
-      "id": "cf042c15-7f81-416f-b132-68e1823a92c8",
+      "id": "f1b8f691-774d-4d29-8620-8bf94156d2cc",
       "question": "68. Who can access our organization's messages and data?",
-      "answer": "Only authorized staff at your facility can access messages within their\n\nconversations. Administrators can access audit logs but cannot read message\n\ncontent by default (subject to your facility's policy configuration). Helix Health\n\nTechnologies staff do not have access to your organization's message content. All\n\naccess events are logged.",
-      "updatedAt": "2026-06-25T21:39:42.271Z"
+      "answer": "Only authorized staff at your facility can access messages within their conversations. Administrators can access audit logs but cannot read message content by default (subject to your facility's policy configuration). Helix Health Technologies staff do not have access to your organization's message content. All access events are logged.",
+      "updatedAt": "2026-06-26T01:49:17.554Z"
     },
     {
-      "id": "74a54ca2-ac3e-4f70-8fb1-ec1ba229f16d",
+      "id": "b5e0291a-9388-49bd-aef0-5ca95647dbc0",
       "question": "69. Is a Business Associate Agreement (BAA) available?",
-      "answer": "Yes. Helix Health Technologies provides a Business Associate Agreement (BAA)\n\nfor all healthcare organizations using HELIX. The BAA outlines the responsibilities\n\nof Helix Health Technologies as a business associate under Data Protection Laws,\n\nincluding data protection, breach notification, and permissible uses of protected\n\nhealth information. Contact info@helixhealth.app to initiate the BAA process.",
-      "updatedAt": "2026-06-25T21:39:42.271Z"
+      "answer": "Yes. Helix Health Technologies provides a Business Associate Agreement (BAA) for all healthcare organizations using HELIX. The BAA outlines the responsibilities of Helix Health Technologies as a business associate under Data Protection Laws, including data protection, breach notification, and permissible uses of protected health information. Contact info@helixhealth.app to initiate the BAA process.",
+      "updatedAt": "2026-06-26T01:49:17.554Z"
     },
     {
-      "id": "98f50659-910a-4bbc-b9c1-eb0ee258c626",
+      "id": "e35485d2-8f62-4d63-8a3d-4e26c64ea25d",
       "question": "70. How long are messages and audit logs retained?",
-      "answer": "Message retention periods follow your organization's data retention policy, which\n\ncan be configured in HELIX. Audit logs-including all delivery, read,\n\nacknowledgment, and escalation events-are retained per your compliance\n\nrequirements and can be exported for regulatory reviews. All stored data is\n\nencrypted and geographically redundant to protect against data loss.",
-      "updatedAt": "2026-06-25T21:39:42.271Z"
+      "answer": "Message retention periods follow your organization's data retention policy, which can be configured in HELIX. Audit logs-including all delivery, read, acknowledgment, and escalation events-are retained per your compliance requirements and can be exported for regulatory reviews. All stored data is encrypted and geographically redundant to protect against data loss.",
+      "updatedAt": "2026-06-26T01:49:17.554Z"
     },
     {
-      "id": "b929d0b8-19c2-40ea-8bb1-e511662e1c70",
+      "id": "b87f3ece-e033-419f-b3c7-65b1200583d8",
       "question": "71. How do I enable App Lock for extra security?",
-      "answer": "Go to Settings (via your profile photo) and toggle on 'App Lock' under the\n\nSecurity section. Once enabled, HELIX will require your PIN or biometric\n\nauthentication (Face ID or fingerprint) every time the app is opened or brought\n\nback from the background. This protects patient and clinical information if your\n\ndevice is left unattended or picked up by an unauthorized person.",
-      "updatedAt": "2026-06-25T21:39:42.271Z"
+      "answer": "Go to Settings (via your profile photo) and toggle on 'App Lock' under the Security section. Once enabled, HELIX will require your PIN or biometric authentication (Face ID or fingerprint) every time the app is opened or brought back from the background. This protects patient and clinical information if your device is left unattended or picked up by an unauthorized person.",
+      "updatedAt": "2026-06-26T01:49:17.554Z"
     },
     {
-      "id": "7c9ac27c-bbff-4806-b3f6-ebd69a9a0655",
+      "id": "71c2b72b-3514-4b0a-a696-e0d2e62fce81",
       "question": "72. What should I do if I lose my device?",
-      "answer": "Contact your HELIX administrator immediately. An admin can remotely sign your\n\naccount out of all active devices via the admin dashboard, preventing any\n\nunauthorized access to HELIX communications. Additionally, change your HELIX\n\npassword as soon as possible from another device. Report the lost device to your\n\nfacility's IT security team as well, as it may also hold cached patient data in other\n\napps.\n\n20\n\n73. How do I verify that critical alert notifications are working on my",
-      "updatedAt": "2026-06-25T21:39:42.271Z"
+      "answer": "Contact your HELIX administrator immediately. An admin can remotely sign your account out of all active devices via the admin dashboard, preventing any unauthorized access to HELIX communications. Additionally, change your HELIX password as soon as possible from another device. Report the lost device to your facility's IT security team as well, as it may also hold cached patient data in other apps.",
+      "updatedAt": "2026-06-26T01:49:17.554Z"
     },
     {
-      "id": "ad0c5518-fff6-4596-80d0-bf78d78e58ca",
-      "question": "device?",
-      "answer": "Go to Settings (via your profile photo), scroll to the 'Testing' section, and tap 'Send\n\ntest critical notification'. This sends a real test critical alert to your device\n\nimmediately. If you hear the alert sound and see the notification, your device is\n\ncorrectly configured. If not, tap 'Open notification / DND settings' to review and\n\ncorrect your device's system notification permissions. Run this test at the start of\n\nany shift where you will be the primary responder for critical alerts.",
-      "updatedAt": "2026-06-25T21:39:42.271Z"
+      "id": "698f9fd5-c629-49c2-bece-64a91a1afe89",
+      "question": "73. How do I verify that critical alert notifications are working on my device?",
+      "answer": "Go to Settings (via your profile photo), scroll to the 'Testing' section, and tap 'Send test critical notification'. This sends a real test critical alert to your device immediately. If you hear the alert sound and see the notification, your device is correctly configured. If not, tap 'Open notification / DND settings' to review and correct your device's system notification permissions. Run this test at the start of any shift where you will be the primary responder for critical alerts.",
+      "updatedAt": "2026-06-26T01:49:17.554Z"
     },
     {
-      "id": "88987ec4-e321-48a5-a985-66f87a787e3e",
+      "id": "58ed0205-ed3a-47d5-b405-1a860cd30a46",
       "question": "74. What is the Signing History feature?",
-      "answer": "Signing History is a personal log of all your recent role sign-ins and sign-outs in\n\nHELIX. Access it from your profile page under the Activity section. It shows which\n\nroles you signed into, at what times, and when you signed out or transferred\n\ncoverage. This is useful for personal time-tracking, shift records, and verifying\n\nyour on-call history. Administrators have access to signing history across all staff\n\nvia the admin dashboard.\n\nSettings & App Management",
-      "updatedAt": "2026-06-25T21:39:42.271Z"
+      "answer": "Signing History is a personal log of all your recent role sign-ins and sign-outs in HELIX. Access it from your profile page under the Activity section. It shows which roles you signed into, at what times, and when you signed out or transferred coverage. This is useful for personal time-tracking, shift records, and verifying your on-call history. Administrators have access to signing history across all staff via the admin dashboard.",
+      "updatedAt": "2026-06-26T01:49:17.554Z"
     },
     {
-      "id": "4eed01bc-34da-4a3a-9ad8-441cb7658863",
+      "id": "df4d8f29-fd68-4a58-b21b-f2b482a88713",
       "question": "75. How do I log out of HELIX securely?",
-      "answer": "Tap your profile photo on the Home screen and scroll to the bottom of the profile\n\npage. Tap 'Logout' (shown in red) and confirm the action. You will be immediately\n\nsigned out of HELIX on that device. No sensitive data remains on the device after\n\nlogout. If you are covering a role, ensure you transfer coverage before logging\n\nout. Always log out when using a shared or borrowed device.",
-      "updatedAt": "2026-06-25T21:39:42.271Z"
+      "answer": "Tap your profile photo on the Home screen and scroll to the bottom of the profile page. Tap 'Logout' (shown in red) and confirm the action. You will be immediately signed out of HELIX on that device. No sensitive data remains on the device after logout. If you are covering a role, ensure you transfer coverage before logging out. Always log out when using a shared or borrowed device.",
+      "updatedAt": "2026-06-26T01:49:17.554Z"
     },
     {
-      "id": "5b6ef358-9665-4ea8-93ff-e1fcf55ea7ea",
+      "id": "822fed20-ff83-452e-a5b8-79ebef5d2e48",
       "question": "76. What is 'Sign out of all roles' and when should I use it?",
-      "answer": "'Sign out of all roles' (found at the bottom of your profile page) immediately ends\n\nyour shift and releases all active roles you are currently covering-without logging\n\nyou out of the HELIX app. Use this at the end of a shift when you want to stop\n\nreceiving role-based messages but keep the app accessible on your device. Note\n\nthat for Critical Priority roles, you must transfer coverage to a replacement before\n\nthe sign-out will complete.",
-      "updatedAt": "2026-06-25T21:39:42.271Z"
+      "answer": "'Sign out of all roles' (found at the bottom of your profile page) immediately ends your shift and releases all active roles you are currently covering-without logging you out of the HELIX app. Use this at the end of a shift when you want to stop receiving role-based messages but keep the app accessible on your device. Note that for Critical Priority roles, you must transfer coverage to a replacement before the sign-out will complete.",
+      "updatedAt": "2026-06-26T01:49:17.554Z"
     },
     {
-      "id": "97d31861-bcba-4ff4-a5d9-d3bf5cfda4f3",
+      "id": "d0efba4c-d700-4e1a-9f14-814033d64638",
       "question": "77. Can I use HELIX on multiple devices simultaneously?",
-      "answer": "Yes. Your HELIX account can be active on multiple devices at the same time.\n\nMessages and notifications will appear on all logged-in devices. Logging out of\n\none device does not affect your sessions on other devices. If you need to revoke\n\naccess on a specific device (e.g., a lost phone), contact your HELIX administrator.\n\n21",
-      "updatedAt": "2026-06-25T21:39:42.271Z"
+      "answer": "Yes. Your HELIX account can be active on multiple devices at the same time. Messages and notifications will appear on all logged-in devices. Logging out of one device does not affect your sessions on other devices. If you need to revoke access on a specific device (e.g., a lost phone), contact your HELIX administrator.",
+      "updatedAt": "2026-06-26T01:49:17.554Z"
     },
     {
-      "id": "cbd663a7-d768-4121-9f4f-0668f209c884",
+      "id": "330d6ff9-da6d-4df8-a151-00970e059561",
       "question": "78. Does HELIX work offline?",
-      "answer": "HELIX supports offline message queuing. If you temporarily lose internet\n\nconnectivity, messages you compose will be queued and automatically sent\n\nwhen your connection is restored. However, receiving new messages and making\n\ncalls requires an active internet connection. It is recommended to use HELIX over\n\nWi-Fi or a reliable mobile data connection.",
-      "updatedAt": "2026-06-25T21:39:42.271Z"
+      "answer": "HELIX supports offline message queuing. If you temporarily lose internet connectivity, messages you compose will be queued and automatically sent when your connection is restored. However, receiving new messages and making calls requires an active internet connection. It is recommended to use HELIX over Wi-Fi or a reliable mobile data connection.",
+      "updatedAt": "2026-06-26T01:49:17.554Z"
     },
     {
-      "id": "3370d960-7f25-4bde-95dc-73685c77a82a",
+      "id": "9a76bea8-a613-4931-a0ff-df1becb35652",
       "question": "79. What are the internet speed requirements for HELIX?",
-      "answer": "HELIX is optimized to function on standard healthcare network infrastructure.\n\nFor messaging, a basic internet connection is sufficient. For voice and video calls,\n\na minimum of 1 Mbps upload and download is recommended for good call\n\nquality. HELIX automatically adjusts call quality based on available bandwidth to\n\nmaintain connectivity.",
-      "updatedAt": "2026-06-25T21:39:42.271Z"
+      "answer": "HELIX is optimized to function on standard healthcare network infrastructure. For messaging, a basic internet connection is sufficient. For voice and video calls, a minimum of 1 Mbps upload and download is recommended for good call quality. HELIX automatically adjusts call quality based on available bandwidth to maintain connectivity.",
+      "updatedAt": "2026-06-26T01:49:17.554Z"
     },
     {
-      "id": "05255e3e-b7e3-4093-93e7-aea224cd8998",
+      "id": "932384af-b27b-4e2b-99f1-e4d9720920b7",
       "question": "80. How do I switch between accounts on HELIX?",
-      "answer": "If you have accounts on multiple HELIX facilities, tap your profile photo, scroll to\n\nthe bottom, and tap 'Switch Account'. This allows you to switch between linked\n\naccounts on the same device without logging out and back in. This is useful for\n\nstaff who work across multiple facilities or have both personal and admin\n\naccounts.\n\nTroubleshooting",
-      "updatedAt": "2026-06-25T21:39:42.271Z"
+      "answer": "If you have accounts on multiple HELIX facilities, tap your profile photo, scroll to the bottom, and tap 'Switch Account'. This allows you to switch between linked accounts on the same device without logging out and back in. This is useful for staff who work across multiple facilities or have both personal and admin accounts.",
+      "updatedAt": "2026-06-26T01:49:17.554Z"
     },
     {
-      "id": "2a93c573-90fe-4301-9097-7963b49d9945",
+      "id": "0e239f7b-96bb-46f7-9aff-e419fd4f40a2",
       "question": "81. I cannot log in to HELIX. What should I do?",
-      "answer": "Check that you are entering the correct email address and password. Ensure your\n\ninternet connection is active. If you have forgotten your password, tap 'Forgot\n\nPassword' on the login screen and follow the email reset instructions. If your\n\naccount has been deactivated, contact your facility's HELIX administrator. If none\n\nof these steps work, uninstall and reinstall the HELIX app. For persistent issues,\n\ncontact support@helixhealth.app or +233 54 357 1525.",
-      "updatedAt": "2026-06-25T21:39:42.271Z"
+      "answer": "Check that you are entering the correct email address and password. Ensure your internet connection is active. If you have forgotten your password, tap 'Forgot Password' on the login screen and follow the email reset instructions. If your account has been deactivated, contact your facility's HELIX administrator. If none of these steps work, uninstall and reinstall the HELIX app. For persistent issues, contact support@helixhealth.app or +233 54 357 1525.",
+      "updatedAt": "2026-06-26T01:49:17.554Z"
     },
     {
-      "id": "0f09e651-1f5a-40e4-a625-f1263be48c35",
+      "id": "039ba76b-910f-4da4-bedf-ffbc80fc0a6c",
       "question": "82. I am not receiving push notifications. What should I do?",
-      "answer": "First, check that HELIX has notification permissions on your device: go to your\n\nphone's Settings > Apps > HelixHealth > Notifications and ensure all notifications\n\nare enabled. Check that Do Not Disturb mode is not blocking standard\n\nnotifications (critical alerts should bypass this, but standard messages may not).\n\nEnsure you have a stable internet connection. Try force-closing and reopening\n\nthe HELIX app. If the issue persists, log out and log back in. Use 'Send test critical\n\nnotification' in Settings to verify your device is correctly configured. If notifications\n\nare still not arriving, contact your IT team or support@helixhealth.app.\n\n22",
-      "updatedAt": "2026-06-25T21:39:42.271Z"
+      "answer": "First, check that HELIX has notification permissions on your device: go to your phone's Settings > Apps > HelixHealth > Notifications and ensure all notifications are enabled. Check that Do Not Disturb mode is not blocking standard notifications (critical alerts should bypass this, but standard messages may not). Ensure you have a stable internet connection. Try force-closing and reopening the HELIX app. If the issue persists, log out and log back in. Use 'Send test critical notification' in Settings to verify your device is correctly configured. If notifications are still not arriving, contact your IT team or support@helixhealth.app.",
+      "updatedAt": "2026-06-26T01:49:17.554Z"
     },
     {
-      "id": "a204b277-32f0-4115-9665-441910552d89",
+      "id": "8b4f14eb-ed7b-4057-bb08-217881c24751",
       "question": "83. My critical alerts are not ringing loudly. How do I fix this?",
-      "answer": "Go to HELIX Settings > Testing > 'Open notification / DND settings'. This opens the\n\ncritical alert disclosure screen and provides shortcuts to your device's system\n\nnotification settings. Ensure HELIX has permission to deliver critical alerts and\n\nthat its notification category is set to the highest priority (on iOS, ensure 'Critical\n\nAlerts' permission is granted; on Android, ensure the HELIX notification channel is\n\nset to 'Urgent'). Run 'Send test critical notification' to verify the fix. If you are still\n\nexperiencing issues, contact your IT team immediately. Critical alerts failing to\n\nsound is a patient safety concern.",
-      "updatedAt": "2026-06-25T21:39:42.271Z"
+      "answer": "Go to HELIX Settings > Testing > 'Open notification / DND settings'. This opens the critical alert disclosure screen and provides shortcuts to your device's system notification settings. Ensure HELIX has permission to deliver critical alerts and that its notification category is set to the highest priority (on iOS, ensure 'Critical Alerts' permission is granted; on Android, ensure the HELIX notification channel is set to 'Urgent'). Run 'Send test critical notification' to verify the fix. If you are still experiencing issues, contact your IT team immediately. Critical alerts failing to sound is a patient safety concern.",
+      "updatedAt": "2026-06-26T01:49:17.554Z"
     },
     {
-      "id": "81f53964-1c37-48c4-b57c-12be487b75a3",
+      "id": "d0df4115-6280-424b-953a-a2cc5fc34148",
       "question": "84. A role I need to contact shows 'No one covering'. What should I do?",
-      "answer": "If a critical role shows no coverage, escalate immediately through your facility's\n\nbackup protocol-contact your supervisor or charge nurse. For non-urgent roles,\n\nsend a message to the role anyway (HELIX will queue it) and notify your\n\ndepartment head that the role is uncovered. Administrators should be alerted to\n\narrange coverage. If you are an administrator, log in to the admin dashboard to\n\nmanually assign coverage or contact the relevant staff member directly.",
-      "updatedAt": "2026-06-25T21:39:42.271Z"
+      "answer": "If a critical role shows no coverage, escalate immediately through your facility's backup protocol-contact your supervisor or charge nurse. For non-urgent roles, send a message to the role anyway (HELIX will queue it) and notify your department head that the role is uncovered. Administrators should be alerted to arrange coverage. If you are an administrator, log in to the admin dashboard to manually assign coverage or contact the relevant staff member directly.",
+      "updatedAt": "2026-06-26T01:49:17.554Z"
     },
     {
-      "id": "be11e08e-6294-4d1d-befd-0999e9581a18",
+      "id": "5d70c233-fff9-4336-89b9-59d97dfb97a4",
       "question": "85. The app is running slowly or crashing. What should I do?",
-      "answer": "First, ensure your device has a stable internet connection. Close and restart the\n\nHELIX app. Restart your device if the problem persists. Check that you are\n\nrunning the latest version of the HELIX app-go to the App Store (iOS) or Google\n\nPlay Store (Android) and update if an update is available. If the app continues to\n\ncrash, uninstall and reinstall it. If none of these steps work, go to Settings > About\n\n> App & Device and note your app version and device details, then contact\n\nsupport@helixhealth.app with this information.\n\nImplementation, Training & Support",
-      "updatedAt": "2026-06-25T21:39:42.271Z"
+      "answer": "First, ensure your device has a stable internet connection. Close and restart the HELIX app. Restart your device if the problem persists. Check that you are running the latest version of the HELIX app-go to the App Store (iOS) or Google Play Store (Android) and update if an update is available. If the app continues to crash, uninstall and reinstall it. If none of these steps work, go to Settings > About > App & Device and note your app version and device details, then contact support@helixhealth.app with this information.",
+      "updatedAt": "2026-06-26T01:49:17.554Z"
     },
     {
-      "id": "b6f1700e-ccbc-441c-8656-124486d5fac4",
+      "id": "16d35cac-8eaf-4080-a136-550d9b640bda",
       "question": "86. How long does it take to implement HELIX at a new facility?",
-      "answer": "Typical implementations take between 2 and 6 weeks, depending on your\n\nfacility's size, complexity, and the number of integrations required. Helix Health\n\nTechnologies handles all provisioning, role mapping, escalation chain\n\nconfiguration, and system integration. Most organizations are fully operational\n\nwithin a month of starting the process.\n\n23",
-      "updatedAt": "2026-06-25T21:39:42.271Z"
+      "answer": "Typical implementations take between 2 and 6 weeks, depending on your facility's size, complexity, and the number of integrations required. Helix Health Technologies handles all provisioning, role mapping, escalation chain configuration, and system integration. Most organizations are fully operational within a month of starting the process.",
+      "updatedAt": "2026-06-26T01:49:17.554Z"
     },
     {
-      "id": "ec2d26f9-1126-4cb6-82e0-b0e8021e0d8e",
+      "id": "3fc2309c-0c30-4c8e-9289-a6b1e3bf380a",
       "question": "87. What training is provided for clinical staff?",
-      "answer": "HELIX provides comprehensive onboarding for all staff, including live training\n\nsessions, step-by-step user documentation, and How-to guides covering all key\n\nfeatures. Admin training covers role management, escalation configuration, and\n\ncompliance reporting. Regular check-ins are scheduled during the first 90 days\n\npost-launch to ensure smooth adoption.",
-      "updatedAt": "2026-06-25T21:39:42.271Z"
+      "answer": "HELIX provides comprehensive onboarding for all staff, including live training sessions, step-by-step user documentation, and How-to guides covering all key features. Admin training covers role management, escalation configuration, and compliance reporting. Regular check-ins are scheduled during the first 90 days post-launch to ensure smooth adoption.",
+      "updatedAt": "2026-06-26T01:49:17.554Z"
     },
     {
-      "id": "3fbc23ee-dded-435b-a6c9-369c59878e5a",
+      "id": "26c57292-0a6d-4511-8768-9b8fb81c78d5",
       "question": "88. What training is available for system administrators?",
-      "answer": "System Admin training covers role creation and management, escalation chain\n\nconfiguration, staff provisioning and deactivation, compliance log access and\n\nexport, broadcast management, and system settings. Administrators also receive\n\naccess to detailed admin documentation and can request refresher sessions from\n\nHelix Health Technologies at any time. For admin support, contact\n\nsupport@helixhealth.app.",
-      "updatedAt": "2026-06-25T21:39:42.271Z"
+      "answer": "System Admin training covers role creation and management, escalation chain configuration, staff provisioning and deactivation, compliance log access and export, broadcast management, and system settings. Administrators also receive access to detailed admin documentation and can request refresher sessions from Helix Health Technologies at any time. For admin support, contact support@helixhealth.app.",
+      "updatedAt": "2026-06-26T01:49:17.554Z"
     },
     {
-      "id": "d28d69bd-c1a0-428b-b46c-cc788a223469",
+      "id": "94996602-cbfc-4435-967d-d37773f9dba9",
       "question": "89. What ongoing support is available after go-live?",
-      "answer": "Helix Health Technologies provides multi-channel ongoing support: email\n\nsupport at support@helixhealth.app and phone support at +233 54 357 1525.\n\nCritical issues-such as platform outages or failures in critical alert delivery-receive\n\na priority response. Non-critical support requests are addressed on the same\n\nbusiness day. Your implementation team remains available for continued\n\nsupport beyond the initial 90-day period.",
-      "updatedAt": "2026-06-25T21:39:42.271Z"
+      "answer": "Helix Health Technologies provides multi-channel ongoing support: email support at support@helixhealth.app and phone support at +233 54 357 1525. Critical issues-such as platform outages or failures in critical alert delivery-receive a priority response. Non-critical support requests are addressed on the same business day. Your implementation team remains available for continued support beyond the initial 90-day period.",
+      "updatedAt": "2026-06-26T01:49:17.554Z"
     },
     {
-      "id": "5927c09d-0493-4031-a14e-41a778cf42f7",
+      "id": "36762b21-0055-4ee9-be8d-56888f43c717",
       "question": "90. Can HELIX be customized for our facility's specific workflows?",
-      "answer": "Yes. HELIX is highly configurable. Role structures, escalation chains, department\n\nhierarchies, notification rules, alert priorities, and transfer workflows can all be\n\ntailored to match your facility's exact needs. Super administrators can make\n\nmany configuration changes in real time. For complex customizations-such as\n\nbespoke integrations, custom escalation logic, or specialized reporting-Helix\n\nHealth Technologies' development team can build solutions to meet your specific\n\nrequirements. Contact support@helixhealth.app to discuss your needs.",
-      "updatedAt": "2026-06-25T21:39:42.271Z"
+      "answer": "Yes. HELIX is highly configurable. Role structures, escalation chains, department hierarchies, notification rules, alert priorities, and transfer workflows can all be tailored to match your facility's exact needs. Super administrators can make many configuration changes in real time. For complex customizations-such as bespoke integrations, custom escalation logic, or specialized reporting-Helix Health Technologies' development team can build solutions to meet your specific requirements. Contact support@helixhealth.app to discuss your needs.",
+      "updatedAt": "2026-06-26T01:49:17.554Z"
     },
     {
-      "id": "8b327f0c-bdcd-44b2-82b2-f94e6222e30b",
+      "id": "ba31cce5-66a6-4a98-bf78-7ed16902745c",
       "question": "91. Does HELIX integrate with our Electronic Medical Records system?",
-      "answer": "Yes. HELIX offers integration with EMR and EHR systems, enabling patient data\n\nand clinical information to flow into HELIX workflows. HELIX provides open\n\nRESTful APIs that support common healthcare IT standards. During\n\nimplementation, the Helix Health Technologies team maps your existing\n\nworkflows and builds the necessary connectors. For integration specifications\n\nand API documentation, contact support@helixhealth.app.",
-      "updatedAt": "2026-06-25T21:39:42.271Z"
+      "answer": "Yes. HELIX offers integration with EMR and EHR systems, enabling patient data and clinical information to flow into HELIX workflows. HELIX provides open RESTful APIs that support common healthcare IT standards. During implementation, the Helix Health Technologies team maps your existing workflows and builds the necessary connectors. For integration specifications and API documentation, contact support@helixhealth.app.",
+      "updatedAt": "2026-06-26T01:49:17.554Z"
     }
   ],
-  "updatedAt": "2026-06-25T21:39:42.271Z"
+  "updatedAt": "2026-06-26T01:49:17.554Z"
 }

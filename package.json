@@ -9,6 +9,8 @@
     "lint": "eslint",
     "import-faq": "tsx scripts/import-faq-pdf.ts",
     "db:migrate": "tsx scripts/migrate.ts",
+    "db:build-faq-seed": "tsx scripts/build-faq-seed.ts",
+    "db:reseed-faq": "tsx scripts/reseed-faq.ts",
     "db:reseed-howto": "tsx scripts/reseed-howto.ts"
   },
   "dependencies": {
