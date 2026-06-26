@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
+import ClientProviders from "@/components/ClientProviders";
 
 export const metadata: Metadata = {
   title: "Helix",
@@ -20,7 +21,7 @@ export default function RootLayout({
         />
       </head>
       <body className="h-full bg-background text-[14px] leading-5 text-on-background antialiased">
-        {children}
+        <ClientProviders>{children}</ClientProviders>
       </body>
     </html>
   );

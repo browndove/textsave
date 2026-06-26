@@ -13,6 +13,7 @@ import {
   type HowToStep,
   type HowToTip,
 } from "@/lib/howto-content";
+import { useConfirm } from "@/components/ConfirmProvider";
 
 interface HowToContentEditorProps {
   entryId: string;
@@ -95,6 +96,7 @@ export default function HowToContentEditor({
   const content = parseHowToAnswer(answer);
   const [editing, setEditing] = useState<EditingTarget>(null);
   const [draftText, setDraftText] = useState("");
+  const confirm = useConfirm();
 
   const persist = (next: HowToContent) => {
     saveContent(faq, entryId, next, onChange);
@@ -203,12 +205,16 @@ export default function HowToContentEditor({
             <button
               type="button"
               onClick={() => {
-                if (window.confirm("Delete this step?")) {
-                  persist({
-                    ...content,
-                    steps: content.steps.filter((item) => item.id !== step.id),
-                  });
-                }
+                void confirm({ message: "Are you sure you want to delete this step?" }).then(
+                  (ok) => {
+                    if (ok) {
+                      persist({
+                        ...content,
+                        steps: content.steps.filter((item) => item.id !== step.id),
+                      });
+                    }
+                  },
+                );
               }}
               className="hover:text-[#6b7280] hover:underline"
             >
@@ -286,12 +292,16 @@ export default function HowToContentEditor({
             <button
               type="button"
               onClick={() => {
-                if (window.confirm("Delete this tip?")) {
-                  persist({
-                    ...content,
-                    tips: content.tips.filter((item) => item.id !== tip.id),
-                  });
-                }
+                void confirm({ message: "Are you sure you want to delete this tip?" }).then(
+                  (ok) => {
+                    if (ok) {
+                      persist({
+                        ...content,
+                        tips: content.tips.filter((item) => item.id !== tip.id),
+                      });
+                    }
+                  },
+                );
               }}
               className="text-[#3b82f6] hover:underline"
             >

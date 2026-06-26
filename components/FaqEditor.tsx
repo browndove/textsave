@@ -13,6 +13,7 @@ import {
 import { filterFaqEntries } from "@/lib/search";
 import FaqImportModal from "@/components/FaqImportModal";
 import HowToContentEditor from "@/components/HowToContentEditor";
+import { useConfirm } from "@/components/ConfirmProvider";
 import { hasHowToContent, parseHowToAnswer } from "@/lib/howto-content";
 
 type EditField = "question" | "answer" | null;
@@ -58,6 +59,7 @@ function FaqAccordionItem({
   const [editField, setEditField] = useState<EditField>(null);
   const [draftText, setDraftText] = useState("");
   const inputRef = useRef<HTMLTextAreaElement>(null);
+  const confirm = useConfirm();
 
   useEffect(() => {
     if (autoFocusQuestion) {
@@ -86,16 +88,17 @@ function FaqAccordionItem({
     setDraftText("");
   };
 
-  const saveEdit = (e?: React.MouseEvent) => {
+  const saveEdit = async (e?: React.MouseEvent) => {
     e?.stopPropagation();
     if (!editField) return;
 
     if (editField === "question") {
       const trimmed = draftText.trim();
       if (!trimmed) {
-        if (window.confirm(`Delete this ${entryLabel.singular}?`)) {
-          onChange(removeEntry(faq, entry.id));
-        }
+        const ok = await confirm({
+          message: `Are you sure you want to delete this ${entryLabel.singular}?`,
+        });
+        if (ok) onChange(removeEntry(faq, entry.id));
         cancelEdit();
         return;
       }
@@ -107,14 +110,13 @@ function FaqAccordionItem({
     cancelEdit();
   };
 
-  const handleDelete = (e: React.MouseEvent) => {
+  const handleDelete = async (e: React.MouseEvent) => {
     e.stopPropagation();
-    const message = entry.answer.trim()
-      ? `Delete this ${entryLabel.singular} and its answer?`
-      : `Delete this ${entryLabel.singular}?`;
-    if (window.confirm(message)) {
-      onChange(removeEntry(faq, entry.id));
-    }
+    const ok = await confirm({
+      itemName: questionText,
+      suffix: hasAnswer ? " and its answer?" : "?",
+    });
+    if (ok) onChange(removeEntry(faq, entry.id));
   };
 
   const hasAnswer = structured
@@ -206,10 +208,18 @@ function FaqAccordionItem({
                     type="button"
                     onClick={(e) => {
                       e.stopPropagation();
-                      if (window.confirm("Remove this answer?")) {
-                        onChange(clearAnswer(faq, entry.id));
-                        cancelEdit();
-                      }
+                      void confirm({
+                        title: "Confirm remove action",
+                        preamble: "Are you sure you want to remove the answer for ",
+                        itemName: questionText,
+                        suffix: "?",
+                        confirmLabel: "Confirm Remove",
+                      }).then((ok) => {
+                        if (ok) {
+                          onChange(clearAnswer(faq, entry.id));
+                          cancelEdit();
+                        }
+                      });
                     }}
                     className="text-[#9ca3af] hover:text-[#6b7280]"
                   >
