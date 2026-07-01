@@ -55,7 +55,7 @@ function StepEditorRow({
   placeholder: string;
 }) {
   return (
-    <li className="flex gap-3 text-[14px] leading-7 text-[#374151]">
+    <li className="flex gap-3 text-body-md leading-7 text-on-surface">
       <span className="shrink-0 pt-0.5 tabular-nums font-medium">{stepNumber}.</span>
       <div className="min-w-0 flex-1 space-y-2">
         <textarea
@@ -63,22 +63,14 @@ function StepEditorRow({
           onChange={(e) => onChange(e.target.value)}
           rows={3}
           autoFocus
-          className="w-full resize-y border-none bg-transparent p-0 text-[14px] leading-7 text-[#374151] placeholder:text-[#9ca3af] focus:outline-none"
+          className="w-full resize-y border-none bg-transparent p-0 text-body-md leading-7 text-on-surface placeholder:text-outline focus:outline-none"
           placeholder={placeholder}
         />
-        <div className="flex gap-4 text-[13px]">
-          <button
-            type="button"
-            onClick={onSave}
-            className="text-[#374151] hover:underline"
-          >
+        <div className="flex gap-3">
+          <button type="button" onClick={onSave} className="btn-ghost !h-auto !px-2 !py-1">
             Save
           </button>
-          <button
-            type="button"
-            onClick={onCancel}
-            className="text-[#9ca3af] hover:text-[#6b7280]"
-          >
+          <button type="button" onClick={onCancel} className="btn-ghost !h-auto !px-2 !py-1">
             Cancel
           </button>
         </div>
@@ -166,6 +158,9 @@ export default function HowToContentEditor({
   const nextStepNumber = content.steps.length + 1;
   const isAddingStep = editing?.kind === "step" && editing.id === NEW_STEP_ID;
 
+  const tipPanelClass =
+    "space-y-2 rounded-lg bg-primary-fixed px-4 py-3 text-body-md leading-7 text-primary";
+
   const renderStep = (step: HowToStep, index: number) => {
     const isEditing = editing?.kind === "step" && editing.id === step.id;
 
@@ -184,21 +179,24 @@ export default function HowToContentEditor({
     }
 
     return (
-      <li key={step.id} className="group flex gap-3 text-[14px] leading-7 text-[#374151]">
+      <li
+        key={step.id}
+        className="group flex gap-3 text-body-md leading-7 text-on-surface"
+      >
         <span className="shrink-0 tabular-nums font-medium">{index + 1}.</span>
         <div className="min-w-0 flex-1">
           <button
             type="button"
             onClick={() => startEdit({ kind: "step", id: step.id }, step.text)}
-            className="w-full cursor-text text-left hover:text-[#111827]"
+            className="w-full cursor-text text-left hover:text-primary"
           >
             {step.text}
           </button>
-          <div className="mt-1 flex gap-3 text-[12px] text-[#9ca3af]">
+          <div className="mt-1 flex gap-3 text-body-sm text-muted">
             <button
               type="button"
               onClick={() => startEdit({ kind: "step", id: step.id }, step.text)}
-              className="hover:text-[#6b7280] hover:underline"
+              className="btn-ghost !h-auto !px-1 !py-0"
             >
               Edit
             </button>
@@ -216,7 +214,7 @@ export default function HowToContentEditor({
                   },
                 );
               }}
-              className="hover:text-[#6b7280] hover:underline"
+              className="btn-ghost !h-auto !px-1 !py-0 text-error"
             >
               Delete
             </button>
@@ -231,28 +229,20 @@ export default function HowToContentEditor({
 
     if (isEditing) {
       return (
-        <div key={tip.id} className="space-y-2 rounded-md bg-[#eff6ff] px-4 py-3">
+        <div key={tip.id} className={tipPanelClass}>
           <textarea
             value={draftText}
             onChange={(e) => setDraftText(e.target.value)}
             rows={3}
             autoFocus
-            className="w-full resize-y border-none bg-transparent p-0 text-[14px] leading-7 text-[#1e40af] italic placeholder:text-[#93c5fd] focus:outline-none"
+            className="w-full resize-y border-none bg-transparent p-0 italic placeholder:text-primary/50 focus:outline-none"
             placeholder="Type your tip here…"
           />
-          <div className="flex gap-4 text-[13px] not-italic">
-            <button
-              type="button"
-              onClick={saveEdit}
-              className="text-[#1e40af] hover:underline"
-            >
+          <div className="flex gap-3 not-italic">
+            <button type="button" onClick={saveEdit} className="btn-ghost !h-auto !px-2 !py-1">
               Save
             </button>
-            <button
-              type="button"
-              onClick={cancelEdit}
-              className="text-[#93c5fd] hover:text-[#1e40af]"
-            >
+            <button type="button" onClick={cancelEdit} className="btn-ghost !h-auto !px-2 !py-1">
               Cancel
             </button>
           </div>
@@ -261,12 +251,9 @@ export default function HowToContentEditor({
     }
 
     return (
-      <div
-        key={tip.id}
-        className="group flex gap-2 rounded-md bg-[#eff6ff] px-4 py-3 text-[14px] leading-7 text-[#1e40af]"
-      >
+      <div key={tip.id} className={`group flex gap-2 ${tipPanelClass}`}>
         <span
-          className="material-symbols-outlined mt-0.5 shrink-0 text-[18px] text-[#3b82f6]"
+          className="material-symbols-outlined mt-0.5 shrink-0 text-[18px] text-primary"
           aria-hidden
         >
           lightbulb
@@ -281,11 +268,11 @@ export default function HowToContentEditor({
               <span className="font-semibold not-italic">Tip:</span> {tip.text}
             </p>
           </button>
-          <div className="mt-1 flex gap-3 text-[12px] not-italic">
+          <div className="mt-1 flex gap-3 text-body-sm not-italic">
             <button
               type="button"
               onClick={() => startEdit({ kind: "tip", id: tip.id }, tip.text)}
-              className="text-[#3b82f6] hover:underline"
+              className="btn-ghost !h-auto !px-1 !py-0"
             >
               Edit
             </button>
@@ -303,7 +290,7 @@ export default function HowToContentEditor({
                   },
                 );
               }}
-              className="text-[#3b82f6] hover:underline"
+              className="btn-ghost !h-auto !px-1 !py-0 text-error"
             >
               Delete
             </button>
@@ -317,10 +304,10 @@ export default function HowToContentEditor({
     if (editing?.kind !== "tip" || editing.id !== NEW_TIP_ID) return null;
 
     return (
-      <div className="space-y-2 rounded-md bg-[#eff6ff] px-4 py-3">
-        <div className="flex gap-2 text-[14px] leading-7 text-[#1e40af]">
+      <div className={tipPanelClass}>
+        <div className="flex gap-2">
           <span
-            className="material-symbols-outlined mt-0.5 shrink-0 text-[18px] text-[#3b82f6]"
+            className="material-symbols-outlined mt-0.5 shrink-0 text-[18px] text-primary"
             aria-hidden
           >
             lightbulb
@@ -331,23 +318,15 @@ export default function HowToContentEditor({
             onChange={(e) => setDraftText(e.target.value)}
             rows={3}
             autoFocus
-            className="min-w-0 flex-1 resize-y border-none bg-transparent p-0 italic placeholder:text-[#93c5fd] focus:outline-none"
+            className="min-w-0 flex-1 resize-y border-none bg-transparent p-0 italic placeholder:text-primary/50 focus:outline-none"
             placeholder="Type your tip here…"
           />
         </div>
-        <div className="flex gap-4 text-[13px] not-italic">
-          <button
-            type="button"
-            onClick={saveEdit}
-            className="text-[#1e40af] hover:underline"
-          >
+        <div className="flex gap-3 not-italic">
+          <button type="button" onClick={saveEdit} className="btn-ghost !h-auto !px-2 !py-1">
             Save
           </button>
-          <button
-            type="button"
-            onClick={cancelEdit}
-            className="text-[#93c5fd] hover:text-[#1e40af]"
-          >
+          <button type="button" onClick={cancelEdit} className="btn-ghost !h-auto !px-2 !py-1">
             Cancel
           </button>
         </div>
@@ -377,19 +356,19 @@ export default function HowToContentEditor({
       {renderNewTip()}
 
       {!hasHowToContent(content) && !editing && (
-        <p className="text-[14px] leading-7 text-[#9ca3af]">
-          Click <span className="text-[#6b7280]">Add step</span> to add instruction{" "}
-          <span className="text-[#6b7280]">1.</span>, then type and save. Each new
+        <p className="text-body-md leading-7 text-muted">
+          Click <span className="text-on-surface-variant">Add step</span> to add instruction{" "}
+          <span className="text-on-surface-variant">1.</span>, then type and save. Each new
           step gets the next number automatically.
         </p>
       )}
 
-      <div className="flex flex-wrap gap-4 pt-2 text-[13px] text-[#9ca3af]">
+      <div className="flex flex-wrap gap-3 pt-2">
         <button
           type="button"
           onClick={addStep}
           disabled={isAddingStep}
-          className="hover:text-[#6b7280] hover:underline disabled:cursor-not-allowed disabled:opacity-40"
+          className="btn-ghost !h-auto !px-2 !py-1 disabled:cursor-not-allowed disabled:opacity-40"
         >
           Add step{content.steps.length > 0 ? ` (${nextStepNumber}.)` : ""}
         </button>
@@ -397,7 +376,7 @@ export default function HowToContentEditor({
           type="button"
           onClick={addTip}
           disabled={editing?.kind === "tip"}
-          className="hover:text-[#6b7280] hover:underline disabled:cursor-not-allowed disabled:opacity-40"
+          className="btn-ghost !h-auto !px-2 !py-1 disabled:cursor-not-allowed disabled:opacity-40"
         >
           Add tip
         </button>

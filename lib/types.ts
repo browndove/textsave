@@ -33,3 +33,28 @@ export interface FaqPagination {
 export interface FaqDocumentResponse extends FaqDocument {
   pagination?: FaqPagination;
 }
+
+export interface GlossaryEntry {
+  id: string;
+  term: string;
+  definition: string;
+  letter: string;
+  updatedAt: string;
+}
+
+export interface GlossaryPagination {
+  total: number;
+  limit: number | null;
+  offset: number;
+  count: number;
+  hasMore: boolean;
+  letter?: string;
+}
+
+export interface GlossaryDocument {
+  id: string;
+  title: string;
+  updatedAt: string;
+  entries: GlossaryEntry[];
+  pagination?: GlossaryPagination;
+}

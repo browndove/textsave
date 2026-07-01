@@ -17,6 +17,46 @@ export function emptyHowToContent(): HowToContent {
   return { steps: [], tips: [] };
 }
 
+function normalizeStep(step: unknown): HowToStep {
+  if (step && typeof step === "object") {
+    const record = step as Record<string, unknown>;
+    return {
+      id: typeof record.id === "string" ? record.id : crypto.randomUUID(),
+      text: typeof record.text === "string" ? record.text : "",
+    };
+  }
+  return createStep(typeof step === "string" ? step : "");
+}
+
+function normalizeTip(tip: unknown): HowToTip {
+  if (tip && typeof tip === "object") {
+    const record = tip as Record<string, unknown>;
+    return {
+      id: typeof record.id === "string" ? record.id : crypto.randomUUID(),
+      text: typeof record.text === "string" ? record.text : "",
+    };
+  }
+  return createTip(typeof tip === "string" ? tip : "");
+}
+
+export function isHowToContent(value: unknown): value is HowToContent {
+  if (!value || typeof value !== "object") return false;
+  const record = value as Record<string, unknown>;
+  return Array.isArray(record.steps) && Array.isArray(record.tips);
+}
+
+/** Coerce API/editor answer values to a JSON string or plain text. */
+export function coerceHowToAnswerString(answer: unknown): string {
+  if (answer == null) return "";
+  if (typeof answer === "string") return answer;
+  if (isHowToContent(answer)) return JSON.stringify(answer);
+  return String(answer);
+}
+
+export function hasAnswerText(answer: unknown): boolean {
+  return coerceHowToAnswerString(answer).trim().length > 0;
+}
+
 export function createStep(text = ""): HowToStep {
   return { id: crypto.randomUUID(), text };
 }
@@ -25,22 +65,36 @@ export function createTip(text = ""): HowToTip {
   return { id: crypto.randomUUID(), text };
 }
 
-export function isStructuredHowToAnswer(answer: string): boolean {
-  if (!answer.trim().startsWith("{")) return false;
+export function isStructuredHowToAnswer(answer: unknown): boolean {
+  if (isHowToContent(answer)) return true;
+  const text = coerceHowToAnswerString(answer);
+  if (!text.trim().startsWith("{")) return false;
   try {
-    const parsed = JSON.parse(answer) as HowToContent;
+    const parsed = JSON.parse(text) as HowToContent;
     return Array.isArray(parsed.steps) && Array.isArray(parsed.tips);
   } catch {
     return false;
   }
 }
 
-export function parseHowToAnswer(answer: string): HowToContent {
-  if (!answer.trim()) return emptyHowToContent();
-  if (isStructuredHowToAnswer(answer)) {
-    return JSON.parse(answer) as HowToContent;
+export function parseHowToAnswer(answer: unknown): HowToContent {
+  if (isHowToContent(answer)) {
+    return {
+      steps: answer.steps.map(normalizeStep),
+      tips: answer.tips.map(normalizeTip),
+    };
   }
-  return parsePlainTextToHowToContent(answer);
+
+  const text = coerceHowToAnswerString(answer);
+  if (!text.trim()) return emptyHowToContent();
+  if (isStructuredHowToAnswer(text)) {
+    const parsed = JSON.parse(text) as HowToContent;
+    return {
+      steps: parsed.steps.map(normalizeStep),
+      tips: parsed.tips.map(normalizeTip),
+    };
+  }
+  return parsePlainTextToHowToContent(text);
 }
 
 export function serializeHowToContent(content: HowToContent): string {

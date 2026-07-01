@@ -1,8 +1,24 @@
 import type { FaqDocument, FaqEntry } from "./types";
 import { getPinnedDocument } from "./documents";
+import { coerceHowToAnswerString } from "./howto-content";
 
 function touch(doc: FaqDocument): FaqDocument {
   return { ...doc, updatedAt: new Date().toISOString() };
+}
+
+export function normalizeFaqEntry(entry: FaqEntry): FaqEntry {
+  const answer = coerceHowToAnswerString(
+    (entry as FaqEntry & { answer?: unknown }).answer,
+  );
+  if (answer === entry.answer) return entry;
+  return { ...entry, answer };
+}
+
+export function normalizeFaqDocument(doc: FaqDocument): FaqDocument {
+  return {
+    ...doc,
+    entries: doc.entries.map(normalizeFaqEntry),
+  };
 }
 
 export function addEntry(
@@ -56,6 +72,22 @@ export function removeEntry(doc: FaqDocument, id: string): FaqDocument {
     ...doc,
     entries: doc.entries.filter((e) => e.id !== id),
   });
+}
+
+export function moveEntry(
+  doc: FaqDocument,
+  fromId: string,
+  toId: string,
+): FaqDocument {
+  if (fromId === toId) return doc;
+  const fromIndex = doc.entries.findIndex((entry) => entry.id === fromId);
+  const toIndex = doc.entries.findIndex((entry) => entry.id === toId);
+  if (fromIndex === -1 || toIndex === -1) return doc;
+
+  const nextEntries = [...doc.entries];
+  const [moved] = nextEntries.splice(fromIndex, 1);
+  nextEntries.splice(toIndex, 0, moved);
+  return touch({ ...doc, entries: nextEntries });
 }
 
 export function formatFaqMeta(doc: FaqDocument): string {

@@ -36,13 +36,13 @@ export default function ConfirmDialog({
         role="alertdialog"
         aria-labelledby="confirm-dialog-title"
         aria-describedby="confirm-dialog-desc"
-        className="w-full max-w-md rounded-xl border border-[#e5e7eb] bg-white p-6 shadow-xl"
+        className="panel w-full max-w-md p-6 shadow-xl"
         onClick={(e) => e.stopPropagation()}
       >
         <div className="flex items-start gap-3">
-          <span className="flex h-9 w-9 shrink-0 items-center justify-center rounded-lg bg-[#fef2f2]">
+          <span className="flex h-9 w-9 shrink-0 items-center justify-center rounded-lg bg-error-container">
             <span
-              className="material-symbols-outlined text-[20px] text-[#dc2626]"
+              className="material-symbols-outlined text-[20px] text-error"
               aria-hidden
             >
               warning
@@ -51,19 +51,19 @@ export default function ConfirmDialog({
           <div className="min-w-0 flex-1">
             <h2
               id="confirm-dialog-title"
-              className="text-[15px] font-semibold text-[#111827]"
+              className="text-[15px] font-semibold text-on-surface"
             >
               {title}
             </h2>
             <p
               id="confirm-dialog-desc"
-              className="mt-2 text-[14px] leading-6 text-[#6b7280]"
+              className="mt-2 text-body-md leading-6 text-on-surface-variant"
             >
               {message ?? (
                 <>
                   {preamble}
                   {itemName && (
-                    <span className="font-semibold text-[#374151]">{itemName}</span>
+                    <span className="font-semibold text-on-surface">{itemName}</span>
                   )}
                   {suffix}
                 </>
@@ -73,17 +73,13 @@ export default function ConfirmDialog({
         </div>
 
         <div className="mt-6 flex justify-end gap-3">
-          <button
-            type="button"
-            onClick={onCancel}
-            className="rounded-lg border border-[#e5e7eb] bg-white px-4 py-2 text-[13px] font-medium text-[#374151] transition-colors hover:bg-[#f9fafb]"
-          >
+          <button type="button" onClick={onCancel} className="btn-secondary">
             {cancelLabel}
           </button>
           <button
             type="button"
             onClick={onConfirm}
-            className="rounded-lg border border-[#fca5a5] bg-[#fef2f2] px-4 py-2 text-[13px] font-medium text-[#b91c1c] transition-colors hover:bg-[#fee2e2]"
+            className="inline-flex h-9 items-center justify-center gap-1.5 rounded-lg border border-error/30 bg-error-container px-4 text-body-sm font-medium text-error transition-colors hover:bg-error-container/80"
           >
             {confirmLabel}
           </button>

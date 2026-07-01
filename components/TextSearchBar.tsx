@@ -1,13 +1,18 @@
 type TextSearchBarProps = {
   value: string;
   onChange: (value: string) => void;
+  placeholder?: string;
 };
 
-export default function TextSearchBar({ value, onChange }: TextSearchBarProps) {
+export default function TextSearchBar({
+  value,
+  onChange,
+  placeholder = "Search…",
+}: TextSearchBarProps) {
   return (
-    <div className="relative w-[200px]">
+    <div className="relative w-[280px]">
       <span
-        className="material-symbols-outlined pointer-events-none absolute top-1/2 left-3 -translate-y-1/2 text-[16px] font-light text-[#aeaeb2]"
+        className="material-symbols-outlined pointer-events-none absolute top-1/2 left-3 -translate-y-1/2 text-[16px] text-outline"
         style={{ fontVariationSettings: "'wght' 300" }}
       >
         search
@@ -16,8 +21,8 @@ export default function TextSearchBar({ value, onChange }: TextSearchBarProps) {
         type="search"
         value={value}
         onChange={(e) => onChange(e.target.value)}
-        placeholder="Search texts..."
-        className="h-8 w-full rounded-lg border border-[#e5e5ea] bg-white pr-3 pl-9 text-[13px] leading-5 font-normal text-on-surface placeholder:text-[#aeaeb2] focus:border-[#c7c7cc] focus:outline-none"
+        placeholder={placeholder}
+        className="h-8 w-full rounded-lg border border-outline-variant bg-surface-container-lowest pr-3 pl-9 text-label-md text-on-surface placeholder:text-outline focus:border-primary-fixed-dim focus:outline-none"
       />
     </div>
   );

@@ -1,6 +1,6 @@
 import type { FaqEntry, SavedVersion } from "./types";
 import { formatVersionMeta } from "./storage";
-import { howToContentToPlainText, parseHowToAnswer } from "./howto-content";
+import { howToContentToPlainText, isStructuredHowToAnswer, parseHowToAnswer } from "./howto-content";
 
 export function filterVersions(versions: SavedVersion[], query: string): SavedVersion[] {
   const q = query.trim().toLowerCase();
@@ -15,7 +15,7 @@ export function filterVersions(versions: SavedVersion[], query: string): SavedVe
 }
 
 function entrySearchText(entry: FaqEntry): string {
-  const answerText = entry.answer.trim().startsWith("{")
+  const answerText = isStructuredHowToAnswer(entry.answer)
     ? howToContentToPlainText(parseHowToAnswer(entry.answer))
     : entry.answer;
   return `${entry.question}\n${answerText}`.toLowerCase();

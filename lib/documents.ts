@@ -1,7 +1,22 @@
 export const FAQ_DOCUMENT_ID = "helix-faq" as const;
 export const HOWTO_DOCUMENT_ID = "helix-howto" as const;
+export const GLOSSARY_DOCUMENT_ID = "helix-glossary" as const;
 
 export type PinnedDocumentId = typeof FAQ_DOCUMENT_ID | typeof HOWTO_DOCUMENT_ID;
+
+export interface GlossaryDocumentMeta {
+  id: typeof GLOSSARY_DOCUMENT_ID;
+  title: string;
+  icon: string;
+  termCount: number;
+}
+
+export const GLOSSARY_DOCUMENT: GlossaryDocumentMeta = {
+  id: GLOSSARY_DOCUMENT_ID,
+  title: "HELIX Medical Terms Glossary",
+  icon: "medical_information",
+  termCount: 1926,
+};
 
 export interface PinnedDocumentMeta {
   id: PinnedDocumentId;
@@ -38,4 +53,10 @@ export function getPinnedDocument(id: string): PinnedDocumentMeta | undefined {
   return PINNED_DOCUMENTS.find((doc) => doc.id === id);
 }
 
-export type EditorDocument = "draft" | PinnedDocumentId;
+export type EditorDocument = "draft" | PinnedDocumentId | typeof GLOSSARY_DOCUMENT_ID;
+
+export function isPinnedFaqDocument(
+  id: EditorDocument,
+): id is PinnedDocumentId {
+  return id === FAQ_DOCUMENT_ID || id === HOWTO_DOCUMENT_ID;
+}

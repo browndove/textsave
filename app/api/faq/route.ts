@@ -1,51 +1,16 @@
 import { NextResponse } from "next/server";
-import { getFaqDocument, saveFaqDocument } from "@/lib/db/repository";
-import type { FaqQueryOptions } from "@/lib/db/repository";
+import { getHelixApiBaseUrl, proxyHelixJson } from "@/lib/helix-api";
 import { FAQ_DOCUMENT_ID, getPinnedDocument } from "@/lib/documents";
-import type { FaqDocument } from "@/lib/types";
 import type { PinnedDocumentId } from "@/lib/documents";
 
 export const runtime = "nodejs";
 
-const MAX_LIMIT = 100;
+const FORWARD_PARAMS = ["id", "limit", "offset"] as const;
 
 function resolveDocumentId(request: Request): PinnedDocumentId | null {
   const { searchParams } = new URL(request.url);
   const id = searchParams.get("id") ?? FAQ_DOCUMENT_ID;
   return getPinnedDocument(id)?.id ?? null;
-}
-
-function parsePagination(
-  searchParams: URLSearchParams,
-): { options: FaqQueryOptions } | { error: string } {
-  const limitParam = searchParams.get("limit");
-  const offsetParam = searchParams.get("offset");
-
-  if (limitParam === null && offsetParam === null) {
-    return { options: {} };
-  }
-
-  let limit: number | undefined;
-  if (limitParam !== null) {
-    if (!/^\d+$/.test(limitParam)) {
-      return { error: "limit must be a non-negative integer" };
-    }
-    const parsed = Number(limitParam);
-    if (parsed < 1) {
-      return { error: "limit must be at least 1" };
-    }
-    limit = Math.min(parsed, MAX_LIMIT);
-  }
-
-  let offset = 0;
-  if (offsetParam !== null) {
-    if (!/^\d+$/.test(offsetParam)) {
-      return { error: "offset must be a non-negative integer" };
-    }
-    offset = Number(offsetParam);
-  }
-
-  return { options: { limit, offset } };
 }
 
 export async function GET(request: Request) {
@@ -54,39 +19,69 @@ export async function GET(request: Request) {
     return NextResponse.json({ error: "Unknown document id" }, { status: 404 });
   }
 
+  try {
+    getHelixApiBaseUrl();
+  } catch (error) {
+    return NextResponse.json(
+      { error: error instanceof Error ? error.message : "Helix API not configured" },
+      { status: 500 },
+    );
+  }
+
   const { searchParams } = new URL(request.url);
-  const pagination = parsePagination(searchParams);
-  if ("error" in pagination) {
-    return NextResponse.json({ error: pagination.error }, { status: 400 });
+  const forward = new URLSearchParams();
+  forward.set("id", id);
+  for (const key of FORWARD_PARAMS) {
+    if (key === "id") continue;
+    const value = searchParams.get(key);
+    if (value !== null) forward.set(key, value);
   }
 
   try {
-    const faq = await getFaqDocument(id, pagination.options);
-    return NextResponse.json(faq);
+    return await proxyHelixJson("/api/v1/faq", {
+      searchParams: forward,
+      cache: { revalidate: 60 },
+    });
   } catch (error) {
     return NextResponse.json(
-      { error: error instanceof Error ? error.message : "Failed to load document" },
-      { status: 500 },
+      {
+        error:
+          error instanceof Error
+            ? error.message
+            : "Failed to reach Helix FAQ API",
+      },
+      { status: 502 },
     );
   }
 }
 
 export async function PUT(request: Request) {
   try {
-    const doc = (await request.json()) as FaqDocument;
-    if (!doc?.id || !getPinnedDocument(doc.id) || !Array.isArray(doc.entries)) {
-      return NextResponse.json({ error: "Invalid document" }, { status: 400 });
-    }
-
-    const saved = await saveFaqDocument({
-      ...doc,
-      updatedAt: new Date().toISOString(),
-    });
-    return NextResponse.json(saved);
+    getHelixApiBaseUrl();
   } catch (error) {
     return NextResponse.json(
-      { error: error instanceof Error ? error.message : "Failed to save document" },
+      { error: error instanceof Error ? error.message : "Helix API not configured" },
       { status: 500 },
+    );
+  }
+
+  const body = await request.text();
+
+  try {
+    return await proxyHelixJson("/api/v1/faq", {
+      method: "PUT",
+      body,
+      contentType: "application/json",
+    });
+  } catch (error) {
+    return NextResponse.json(
+      {
+        error:
+          error instanceof Error
+            ? error.message
+            : "Failed to save document via Helix API",
+      },
+      { status: 502 },
     );
   }
 }

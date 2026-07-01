@@ -8,17 +8,13 @@
     "start": "next start",
     "lint": "eslint",
     "import-faq": "tsx scripts/import-faq-pdf.ts",
-    "db:migrate": "tsx scripts/migrate.ts",
-    "db:build-faq-seed": "tsx scripts/build-faq-seed.ts",
-    "db:reseed-faq": "tsx scripts/reseed-faq.ts",
-    "db:reseed-howto": "tsx scripts/reseed-howto.ts"
+    "db:build-faq-seed": "tsx scripts/build-faq-seed.ts"
   },
   "dependencies": {
     "@tailwindcss/postcss": "^4.3.1",
     "mammoth": "^1.12.0",
     "next": "16.2.9",
     "pdf-parse": "^1.1.4",
-    "pg": "^8.22.0",
     "postcss": "^8.5.15",
     "react": "19.2.4",
     "react-dom": "19.2.4",
@@ -26,7 +22,6 @@
   },
   "devDependencies": {
     "@types/node": "^20",
-    "@types/pg": "^8.20.0",
     "@types/react": "^19",
     "@types/react-dom": "^19",
     "eslint": "^9",

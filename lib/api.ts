@@ -1,46 +1,43 @@
 import type { FaqDocument, FaqDocumentResponse, SavedVersion } from "./types";
 import type { PinnedDocumentId } from "./documents";
 import { FAQ_DOCUMENT_ID } from "./documents";
+import { normalizeFaqDocument } from "./faq-storage";
+import {
+  deleteDraftVersion,
+  listDraftVersions,
+  saveDraftVersion,
+} from "./draft-storage";
 
 async function parseError(response: Response): Promise<string> {
   try {
     const data = await response.json();
-    return typeof data.error === "string" ? data.error : response.statusText;
+    if (typeof data.error === "string") return data.error;
+    if (typeof data.message === "string") return data.message;
+    return response.statusText;
   } catch {
     return response.statusText;
   }
 }
 
 export async function fetchVersions(): Promise<SavedVersion[]> {
-  const response = await fetch("/api/versions");
-  if (!response.ok) throw new Error(await parseError(response));
-  return response.json();
+  return listDraftVersions();
 }
 
 export async function saveVersionApi(
   content: string,
   title?: string,
 ): Promise<SavedVersion> {
-  const response = await fetch("/api/versions", {
-    method: "POST",
-    headers: { "Content-Type": "application/json" },
-    body: JSON.stringify({ content, title }),
-  });
-  if (!response.ok) throw new Error(await parseError(response));
-  return response.json();
+  return saveDraftVersion(content, title);
 }
 
 export async function deleteVersionApi(id: string): Promise<void> {
-  const response = await fetch(`/api/versions?id=${encodeURIComponent(id)}`, {
-    method: "DELETE",
-  });
-  if (!response.ok) throw new Error(await parseError(response));
+  deleteDraftVersion(id);
 }
 
 export async function fetchFaq(id: PinnedDocumentId = FAQ_DOCUMENT_ID): Promise<FaqDocument> {
   const response = await fetch(`/api/faq?id=${encodeURIComponent(id)}`);
   if (!response.ok) throw new Error(await parseError(response));
-  return response.json();
+  return normalizeFaqDocument(await response.json());
 }
 
 export interface FetchFaqPageOptions {
@@ -59,7 +56,7 @@ export async function fetchFaqPage(
   });
   const response = await fetch(`/api/faq?${params}`);
   if (!response.ok) throw new Error(await parseError(response));
-  return response.json();
+  return normalizeFaqDocument(await response.json());
 }
 
 export async function saveFaqApi(doc: FaqDocument): Promise<FaqDocument> {
@@ -69,5 +66,5 @@ export async function saveFaqApi(doc: FaqDocument): Promise<FaqDocument> {
     body: JSON.stringify(doc),
   });
   if (!response.ok) throw new Error(await parseError(response));
-  return response.json();
+  return normalizeFaqDocument(await response.json());
 }
